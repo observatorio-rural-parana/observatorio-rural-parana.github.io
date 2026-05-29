@@ -1,0 +1,36 @@
+name: Lighthouse CI
+
+# Audita performance, acessibilidade, boas práticas e SEO da página inicial.
+# O site estático (raiz do repositório) é servido localmente pelo Lighthouse CI
+# e as metas vivem em .github/lighthouse-budget.json, fazendo o job falhar
+# quando uma categoria fica abaixo do orçamento definido.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: lighthouse-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lighthouse:
+    name: Auditar index estático
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Executar Lighthouse CI
+        uses: treosh/lighthouse-ci-action@v12
+        with:
+          # Configuração completa do LHCI: serve a raiz como site estático,
+          # audita a home e aplica as metas de categoria (assertions).
+          configPath: ".github/lighthouse-budget.json"
+          uploadArtifacts: true
+          temporaryPublicStorage: true
