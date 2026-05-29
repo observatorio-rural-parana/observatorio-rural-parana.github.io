@@ -1,0 +1,27 @@
+{
+  "_comentario": "Modelo de UMA entrada de catálogo do Observatório Rural Paranaense. Copie o objeto abaixo (sem este campo _comentario) e anexe-o ao array `datasets` de assets/data/catalog.json. Campos conforme docs/DADOS-ABERTOS.md §2.2. Em geral é o pipeline/export_open_data.py que gera/atualiza esta entrada (upsert por `id`, preenchendo `bytes`/`sha256`). Marque valores não confirmados com (inferido) e não invente dados.",
+  "id": "TODO-eixo/TODO-dataset",
+  "titulo": "TODO — Título legível em pt-BR",
+  "eixo": "TODO-eixo",
+  "descricao": "TODO — o que o dataset contém, em uma a três frases.",
+  "fonte": "TODO — origem primária do dado (ex.: DERAL/SEAB — Valor Bruto da Produção)",
+  "orgao": "TODO — instituição responsável (ex.: IDR-Paraná / SEAB)",
+  "periodicidade": "anual",
+  "ultima_atualizacao": "AAAA-MM-DD",
+  "cobertura_temporal": { "inicio": "AAAA", "fim": "AAAA" },
+  "cobertura_geografica": { "nivel": "municipio", "unidades": 399 },
+  "formatos": ["csv", "json"],
+  "arquivos": [
+    { "formato": "csv",  "url": "/assets/data/TODO-eixo/TODO-dataset.csv",  "bytes": null, "sha256": null },
+    { "formato": "json", "url": "/assets/data/TODO-eixo/TODO-dataset.json", "bytes": null, "sha256": null }
+  ],
+  "licenca": {
+    "id": "CC-BY-4.0",
+    "nome": "Creative Commons Atribuição 4.0 Internacional",
+    "url": "https://creativecommons.org/licenses/by/4.0/deed.pt-br"
+  },
+  "dicionario": "/assets/data/TODO-eixo/TODO-dataset.dict.json",
+  "versao": "1.0",
+  "painel": { "nome": "TODO — nome do painel que visualiza o dataset", "url": "https://exemplo.github.io/painel/" },
+  "notas": "TODO (opcional) — limitações, ressalvas LGPD/supressão de células, observações de carga."
+}

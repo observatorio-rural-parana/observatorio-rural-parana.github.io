@@ -1,0 +1,799 @@
+cod_ibge,municipio,regional_idr,reg_idr_nome,meso_idr,ano,vbp_reais,producao_ton,area_ha
+4100103,Abatiá,13,Cornélio Procópio,Norte,2012,51837295,124220,15466
+4100202,Adrianópolis,02,Curitiba,Metropolitana e Litoral,2012,101266326,80684,35862
+4100301,Agudos do Sul,02,Curitiba,Metropolitana e Litoral,2012,67884636,59030,13874
+4100400,Almirante Tamandaré,02,Curitiba,Metropolitana e Litoral,2012,44415502,37953,3817
+4100459,Altamira do Paraná,19,Campo Mourão,Oeste,2012,35414013,24016,2068
+4100509,Altônia,09,Umuarama,Noroeste,2012,94756614,152282,8118
+4100608,Alto Paraná,10,Paranavaí,Noroeste,2012,115394505,400183,9244
+4100707,Alto Piquiri,09,Umuarama,Noroeste,2012,101944848,444748,44971
+4100806,Alvorada do Sul,12,Londrina,Norte,2012,114786699,189389,41018
+4100905,Amaporã,10,Paranavaí,Noroeste,2012,64283551,414924,8966
+4101002,Ampére,16,Francisco Beltrão,Sudoeste,2012,133855522,176883,15534
+4101051,Anahy,17,Cascavel,Oeste,2012,80598312,170980,13854
+4101101,Andirá,13,Cornélio Procópio,Norte,2012,100486282,544285,31355
+4101150,Ângulo,11,Maringá,Noroeste,2012,68058036,68364,12109
+4101200,Antonina,01,Paranaguá,Metropolitana e Litoral,2012,13633325,14639,912
+4101309,Antônio Olinto,03,União da Vitória,Centro Sul,2012,143156868,193470,30864
+4101408,Apucarana,20,Apucarana,Norte,2012,202132051,173553,39403
+4101507,Arapongas,20,Apucarana,Norte,2012,201865536,225134,38997
+4101606,Arapoti,04,Ponta Grossa,Centro Sul,2012,339616870,501665,87772
+4101655,Arapuã,06,Ivaiporã,Norte,2012,79294108,138845,25811
+4101705,Araruna,19,Campo Mourão,Oeste,2012,170462266,304092,44697
+4101804,Araucária,02,Curitiba,Metropolitana e Litoral,2012,173410962,302969,28455
+4101853,Ariranha do Ivaí,06,Ivaiporã,Norte,2012,62240305,107149,19203
+4101903,Assaí,13,Cornélio Procópio,Norte,2012,128829778,240662,48942
+4102000,Assis Chateaubriand,18,Toledo,Oeste,2012,450034216,668513,149604
+4102109,Astorga,11,Maringá,Noroeste,2012,226222204,543232,42662
+4102208,Atalaia,11,Maringá,Noroeste,2012,58590470,198717,11823
+4102307,Balsa Nova,02,Curitiba,Metropolitana e Litoral,2012,66741356,91058,17645
+4102406,Bandeirantes,13,Cornélio Procópio,Norte,2012,141727424,896824,37569
+4102505,Barbosa Ferraz,19,Campo Mourão,Oeste,2012,89283695,150525,25102
+4102604,Barracão,16,Francisco Beltrão,Sudoeste,2012,71147533,139518,8041
+4102703,Barra do Jacaré,14,Santo Antonio da Platina,Norte,2012,86843018,401819,16114
+4102752,Bela Vista da Caroba,16,Francisco Beltrão,Sudoeste,2012,47737621,95249,8626
+4102802,Bela Vista do Paraíso,12,Londrina,Norte,2012,83779155,143446,32008
+4102901,Bituruna,03,União da Vitória,Centro Sul,2012,147880590,385329,29538
+4103008,Boa Esperança,19,Campo Mourão,Oeste,2012,101957561,183439,51439
+4103024,Boa Esperança do Iguaçu,23,Dois Vizinhos,Sudoeste,2012,64584624,81533,6737
+4103040,Boa Ventura de São Roque,05,Pitanga,Centro,2012,79988669,121470,25889
+4103057,Boa Vista da Aparecida,17,Cascavel,Oeste,2012,71034279,121418,7451
+4103107,Bocaiúva do Sul,02,Curitiba,Metropolitana e Litoral,2012,83914925,51107,25484
+4103156,Bom Jesus do Sul,16,Francisco Beltrão,Sudoeste,2012,58725731,116549,9825
+4103206,Bom Sucesso,20,Apucarana,Norte,2012,96563093,795684,13512
+4103222,Bom Sucesso do Sul,15,Pato Branco,Sudoeste,2012,114888838,139621,27216
+4103305,Borrazópolis,06,Ivaiporã,Norte,2012,76659852,98711,26127
+4103354,Braganey,17,Cascavel,Oeste,2012,110532171,200077,34965
+4103370,Brasilândia do Sul,09,Umuarama,Noroeste,2012,76849976,158705,37485
+4103404,Cafeara,12,Londrina,Norte,2012,52728532,527803,9216
+4103453,Cafelândia,17,Cascavel,Oeste,2012,305246934,306570,49261
+4103479,Cafezal do Sul,09,Umuarama,Noroeste,2012,58487886,298322,10140
+4103503,Califórnia,20,Apucarana,Norte,2012,68182017,59233,11816
+4103602,Cambará,14,Santo Antonio da Platina,Norte,2012,159267066,1597532,46032
+4103701,Cambé,12,Londrina,Norte,2012,197930411,320232,69548
+4103800,Cambira,20,Apucarana,Norte,2012,69923981,104571,12623
+4103909,Campina da Lagoa,19,Campo Mourão,Oeste,2012,191283988,267900,60029
+4103958,Campina do Simão,05,Guarapuava,Centro,2012,84446223,111960,20643
+4104006,Campina Grande do Sul,02,Curitiba,Metropolitana e Litoral,2012,21621596,18882,3955
+4104055,Campo Bonito,17,Cascavel,Oeste,2012,150432204,344508,37989
+4104105,Campo do Tenente,02,Curitiba,Metropolitana e Litoral,2012,104151946,88167,25036
+4104204,Campo Largo,02,Curitiba,Metropolitana e Litoral,2012,134178813,189034,33736
+4104253,Campo Magro,02,Curitiba,Metropolitana e Litoral,2012,44354803,56976,6638
+4104303,Campo Mourão,19,Campo Mourão,Oeste,2012,258829028,377987,97698
+4104402,Cândido de Abreu,06,Pitanga,Centro,2012,160106000,193430,49112
+4104428,Candói,05,Guarapuava,Centro,2012,245964795,392597,79460
+4104451,Cantagalo,05,Guarapuava,Centro,2012,84614315,128820,28949
+4104501,Capanema,16,Francisco Beltrão,Sudoeste,2012,209236115,298088,36563
+4104600,Capitão Leônidas Marques,17,Cascavel,Oeste,2012,153156691,289363,20627
+4104659,Carambeí,04,Ponta Grossa,Centro Sul,2012,390570073,940839,62938
+4104709,Carlópolis,14,Santo Antonio da Platina,Norte,2012,147192311,114212,13532
+4104808,Cascavel,17,Cascavel,Oeste,2012,883639566,1185220,148690
+4104907,Castro,04,Ponta Grossa,Centro Sul,2012,1127491215,1851022,192102
+4105003,Catanduvas,17,Cascavel,Oeste,2012,235545132,515404,37495
+4105102,Centenário do Sul,12,Londrina,Norte,2012,100681220,684460,20964
+4105201,Cerro Azul,02,Curitiba,Metropolitana e Litoral,2012,214705108,239674,56030
+4105300,Céu Azul,17,Cascavel,Oeste,2012,221578535,349747,47947
+4105409,Chopinzinho,15,Pato Branco,Sudoeste,2012,205090837,483076,47075
+4105508,Cianorte,22,Cianorte,Noroeste,2012,347739508,1012872,37969
+4105607,Cidade Gaúcha,22,Cianorte,Noroeste,2012,72974494,552568,10610
+4105706,Clevelândia,15,Pato Branco,Sudoeste,2012,124586151,256057,47696
+4105805,Colombo,02,Curitiba,Metropolitana e Litoral,2012,207765541,132308,6283
+4105904,Colorado,11,Maringá,Noroeste,2012,111596088,1415422,18742
+4106001,Congonhinhas,13,Cornélio Procópio,Norte,2012,84998282,338951,28689
+4106100,Conselheiro Mairinck,14,Santo Antonio da Platina,Norte,2012,60127870,96422,8447
+4106209,Contenda,02,Curitiba,Metropolitana e Litoral,2012,92794515,165500,16340
+4106308,Corbélia,17,Cascavel,Oeste,2012,327034259,489243,85856
+4106407,Cornélio Procópio,13,Cornélio Procópio,Norte,2012,151112201,433382,59470
+4106456,Coronel Domingos Soares,15,Pato Branco,Sudoeste,2012,100334480,298569,37458
+4106506,Coronel Vivida,15,Pato Branco,Sudoeste,2012,129247914,243556,41907
+4106555,Corumbataí do Sul,19,Campo Mourão,Oeste,2012,36479074,28035,6100
+4106571,Cruzeiro do Iguaçu,23,Dois Vizinhos,Sudoeste,2012,118750061,127357,6712
+4106605,Cruzeiro do Oeste,09,Umuarama,Noroeste,2012,131657035,1142552,26757
+4106704,Cruzeiro do Sul,10,Paranavaí,Noroeste,2012,94248864,550868,13636
+4106803,Cruz Machado,03,União da Vitória,Centro Sul,2012,235430684,355014,56217
+4106852,Cruzmaltina,06,Ivaiporã,Norte,2012,72862276,82758,12943
+4106902,Curitiba,02,Curitiba,Metropolitana e Litoral,2012,10122912,4102,218
+4107009,Curiúva,14,Santo Antonio da Platina,Norte,2012,137560293,120053,22971
+4107108,Diamante do Norte,10,Paranavaí,Noroeste,2012,42762697,135540,3103
+4107124,Diamante do Sul,21,Laranjeiras do Sul,Centro,2012,43891619,49475,5459
+4107157,Diamante d'Oeste,17,Cascavel,Oeste,2012,77712593,177265,11930
+4107207,Dois Vizinhos,23,Dois Vizinhos,Sudoeste,2012,524699423,374850,28891
+4107256,Douradina,09,Umuarama,Noroeste,2012,68597603,440058,9580
+4107306,Doutor Camargo,11,Maringá,Noroeste,2012,54486022,82580,19034
+4107405,Enéas Marques,16,Francisco Beltrão,Sudoeste,2012,202678164,317964,6756
+4107504,Engenheiro Beltrão,19,Campo Mourão,Oeste,2012,144649645,810399,59333
+4107520,Esperança Nova,09,Umuarama,Noroeste,2012,40585549,54060,1501
+4107538,Entre Rios do Oeste,18,Toledo,Oeste,2012,110383531,178157,10566
+4107546,Espigão Alto do Iguaçu,21,Laranjeiras do Sul,Centro,2012,72999732,99013,13366
+4107553,Farol,19,Campo Mourão,Oeste,2012,87976821,130672,41010
+4107603,Faxinal,06,Ivaiporã,Norte,2012,133839669,177001,27911
+4107652,Fazenda Rio Grande,02,Curitiba,Metropolitana e Litoral,2012,31349617,26232,3114
+4107702,Fênix,19,Campo Mourão,Oeste,2012,71708922,329999,29541
+4107736,Fernandes Pinheiro,07,Irati,Centro Sul,2012,155502200,193334,29656
+4107751,Figueira,14,Santo Antonio da Platina,Norte,2012,28539523,22299,5514
+4107801,Floraí,11,Maringá,Noroeste,2012,105079799,361055,23942
+4107850,Flor da Serra do Sul,16,Francisco Beltrão,Sudoeste,2012,89059220,125358,17775
+4107900,Floresta,11,Maringá,Noroeste,2012,54363715,98366,25070
+4108007,Florestópolis,12,Londrina,Norte,2012,69034695,577688,18765
+4108106,Flórida,11,Maringá,Noroeste,2012,21977844,74317,3983
+4108205,Formosa do Oeste,18,Toledo,Oeste,2012,167711378,153215,26896
+4108304,Foz do Iguaçu,17,Cascavel,Oeste,2012,53846181,89303,19844
+4108320,Francisco Alves,09,Umuarama,Noroeste,2012,93772600,135279,25826
+4108403,Francisco Beltrão,16,Francisco Beltrão,Sudoeste,2012,591704184,580695,36036
+4108452,Foz do Jordão,05,Guarapuava,Centro,2012,44861553,72875,18375
+4108502,General Carneiro,03,União da Vitória,Centro Sul,2012,238673607,191094,29267
+4108551,Godoy Moreira,06,Ivaiporã,Norte,2012,33241796,36151,8078
+4108601,Goioerê,19,Campo Mourão,Oeste,2012,145142921,253085,56458
+4108650,Goioxim,05,Guarapuava,Centro,2012,87151647,130429,35278
+4108700,Grandes Rios,06,Ivaiporã,Norte,2012,60219173,59913,7416
+4108809,Guaíra,18,Toledo,Oeste,2012,141216728,307717,66814
+4108908,Guairaçá,10,Paranavaí,Noroeste,2012,118725170,748288,16339
+4108957,Guamiranga,07,Irati,Centro Sul,2012,113942224,118931,17339
+4109005,Guapirama,14,Santo Antonio da Platina,Norte,2012,89450337,134394,14654
+4109104,Guaporema,22,Cianorte,Noroeste,2012,59511641,564760,8690
+4109203,Guaraci,12,Londrina,Norte,2012,138319009,269791,7170
+4109302,Guaraniaçu,21,Laranjeiras do Sul,Centro,2012,213054791,311266,30236
+4109401,Guarapuava,05,Guarapuava,Centro,2012,530659843,734523,152247
+4109500,Guaraqueçaba,01,Paranaguá,Metropolitana e Litoral,2012,27736263,21596,1530
+4109609,Guaratuba,01,Paranaguá,Metropolitana e Litoral,2012,104811411,101643,6535
+4109658,Honório Serpa,15,Pato Branco,Sudoeste,2012,79578522,181655,28419
+4109708,Ibaiti,14,Santo Antonio da Platina,Norte,2012,253184640,1052956,31767
+4109757,Ibema,17,Cascavel,Oeste,2012,71530852,153798,12022
+4109807,Ibiporã,12,Londrina,Norte,2012,107259633,144231,33677
+4109906,Icaraíma,09,Umuarama,Noroeste,2012,116956597,810575,18092
+4110003,Iguaraçu,11,Maringá,Noroeste,2012,98037188,188133,20045
+4110052,Iguatu,17,Cascavel,Oeste,2012,45938450,76357,11330
+4110078,Imbaú,04,Ponta Grossa,Centro Sul,2012,29140189,28121,22412
+4110102,Imbituva,07,Irati,Centro Sul,2012,231625278,244433,45790
+4110201,Inácio Martins,07,Irati,Centro Sul,2012,204807954,126051,55046
+4110300,Inajá,10,Paranavaí,Noroeste,2012,26535683,336995,6778
+4110409,Indianópolis,22,Cianorte,Noroeste,2012,62857203,260075,6222
+4110508,Ipiranga,04,Ponta Grossa,Centro Sul,2012,226436460,248504,63084
+4110607,Iporã,09,Umuarama,Noroeste,2012,104059530,154612,23406
+4110656,Iracema do Oeste,18,Toledo,Oeste,2012,37802366,56588,14242
+4110706,Irati,07,Irati,Centro Sul,2012,280749745,338551,71657
+4110805,Iretama,19,Campo Mourão,Oeste,2012,96167483,81489,13147
+4110904,Itaguajé,11,Maringá,Noroeste,2012,38569379,342268,5993
+4110953,Itaipulândia,17,Cascavel,Oeste,2012,122521491,196179,18562
+4111001,Itambaracá,13,Cornélio Procópio,Norte,2012,80825356,545519,25778
+4111100,Itambé,11,Maringá,Noroeste,2012,81254060,340016,35185
+4111209,Itapejara d'Oeste,15,Pato Branco,Sudoeste,2012,188529359,221932,27547
+4111258,Itaperuçu,02,Curitiba,Metropolitana e Litoral,2012,36011556,29715,12830
+4111308,Itaúna do Sul,10,Paranavaí,Noroeste,2012,22853817,80052,2022
+4111407,Ivaí,04,Ponta Grossa,Centro Sul,2012,137148410,133648,35119
+4111506,Ivaiporã,06,Ivaiporã,Norte,2012,96770434,142173,27084
+4111555,Ivaté,09,Umuarama,Noroeste,2012,65978503,862948,17143
+4111605,Ivatuba,11,Maringá,Noroeste,2012,38097864,69795,16047
+4111704,Jaboti,14,Santo Antonio da Platina,Norte,2012,63076763,77546,4390
+4111803,Jacarezinho,14,Santo Antonio da Platina,Norte,2012,301634671,2196534,36141
+4111902,Jaguapitã,12,Londrina,Norte,2012,224953580,606108,19961
+4112009,Jaguariaíva,04,Ponta Grossa,Centro Sul,2012,184012023,174488,85866
+4112108,Jandaia do Sul,20,Apucarana,Norte,2012,63621435,204511,9482
+4112207,Janiópolis,19,Campo Mourão,Oeste,2012,79772284,140065,42386
+4112306,Japira,14,Santo Antonio da Platina,Norte,2012,92377124,90995,9602
+4112405,Japurá,22,Cianorte,Noroeste,2012,80615932,228051,17571
+4112504,Jardim Alegre,06,Ivaiporã,Norte,2012,84981296,87285,19853
+4112603,Jardim Olinda,10,Paranavaí,Noroeste,2012,28289980,245606,6447
+4112702,Jataizinho,13,Cornélio Procópio,Norte,2012,43285989,57935,12026
+4112751,Jesuítas,18,Toledo,Oeste,2012,155761341,179390,26061
+4112801,Joaquim Távora,14,Santo Antonio da Platina,Norte,2012,161658423,104138,5133
+4112900,Jundiaí do Sul,14,Santo Antonio da Platina,Norte,2012,79534768,129816,16680
+4112959,Juranda,19,Campo Mourão,Oeste,2012,125098065,219522,55206
+4113007,Jussara,22,Cianorte,Noroeste,2012,105961955,452786,25697
+4113106,Kaloré,20,Apucarana,Norte,2012,43482596,128246,19103
+4113205,Lapa,02,Curitiba,Metropolitana e Litoral,2012,458075254,453504,94842
+4113254,Laranjal,05,Pitanga,Centro,2012,54745726,67748,3299
+4113304,Laranjeiras do Sul,21,Laranjeiras do Sul,Centro,2012,114244041,184723,21282
+4113403,Leópolis,13,Cornélio Procópio,Norte,2012,91837539,170061,38064
+4113429,Lidianópolis,06,Ivaiporã,Norte,2012,37437312,47896,10835
+4113452,Lindoeste,17,Cascavel,Oeste,2012,71433889,123969,10513
+4113502,Loanda,10,Paranavaí,Noroeste,2012,97614235,344299,6212
+4113601,Lobato,11,Maringá,Noroeste,2012,65884883,657989,14780
+4113700,Londrina,12,Londrina,Norte,2012,616904516,797799,117598
+4113734,Luiziana,19,Campo Mourão,Oeste,2012,199327730,312940,70962
+4113759,Lunardelli,06,Ivaiporã,Norte,2012,44158348,71095,9955
+4113809,Lupionópolis,12,Londrina,Norte,2012,36107030,203200,8141
+4113908,Mallet,07,Irati,Centro Sul,2012,131670989,201332,35866
+4114005,Mamborê,19,Campo Mourão,Oeste,2012,256148123,408312,99175
+4114104,Mandaguaçu,11,Maringá,Noroeste,2012,155491837,668655,26238
+4114203,Mandaguari,11,Maringá,Noroeste,2012,146851756,176718,12340
+4114302,Mandirituba,02,Curitiba,Metropolitana e Litoral,2012,145600642,95530,21814
+4114351,Manfrinópolis,16,Francisco Beltrão,Sudoeste,2012,77093804,82002,3688
+4114401,Mangueirinha,15,Pato Branco,Sudoeste,2012,185432254,361124,60118
+4114500,Manoel Ribas,06,Pitanga,Centro,2012,156845969,329472,40987
+4114609,Marechal Cândido Rondon,18,Toledo,Oeste,2012,541016347,1148647,60333
+4114708,Maria Helena,09,Umuarama,Noroeste,2012,73365455,277890,6890
+4114807,Marialva,11,Maringá,Noroeste,2012,252039868,620384,54233
+4114906,Marilândia do Sul,20,Apucarana,Norte,2012,500999187,520385,51126
+4115002,Marilena,10,Paranavaí,Noroeste,2012,47131986,237391,5633
+4115101,Mariluz,09,Umuarama,Noroeste,2012,71945958,252325,31862
+4115200,Maringá,11,Maringá,Noroeste,2012,143955944,279641,49102
+4115309,Mariópolis,15,Pato Branco,Sudoeste,2012,91612123,135554,26500
+4115358,Maripá,18,Toledo,Oeste,2012,228017593,376240,43280
+4115408,Marmeleiro,16,Francisco Beltrão,Sudoeste,2012,178407913,247384,23211
+4115457,Marquinho,21,Laranjeiras do Sul,Centro,2012,46081269,55604,5878
+4115507,Marumbi,20,Apucarana,Norte,2012,41800329,268669,8639
+4115606,Matelândia,17,Cascavel,Oeste,2012,204831594,288437,20328
+4115705,Matinhos,01,Paranaguá,Metropolitana e Litoral,2012,6610357,539,54
+4115739,Mato Rico,05,Pitanga,Centro,2012,41972910,55593,13099
+4115754,Mauá da Serra,20,Apucarana,Norte,2012,71941414,87320,10412
+4115804,Medianeira,17,Cascavel,Oeste,2012,209566725,268134,25894
+4115853,Mercedes,18,Toledo,Oeste,2012,105950760,191260,16485
+4115903,Mirador,10,Paranavaí,Noroeste,2012,73422606,661457,11221
+4116000,Miraselva,12,Londrina,Norte,2012,32711906,103403,1650
+4116059,Missal,17,Cascavel,Oeste,2012,174861142,235954,31892
+4116109,Moreira Sales,19,Campo Mourão,Oeste,2012,88567344,326862,28595
+4116208,Morretes,01,Paranaguá,Metropolitana e Litoral,2012,32817214,37992,1770
+4116307,Munhoz de Melo,11,Maringá,Noroeste,2012,96839569,240961,10836
+4116406,Nossa Senhora das Graças,11,Maringá,Noroeste,2012,59296285,660464,9887
+4116505,Nova Aliança do Ivaí,10,Paranavaí,Noroeste,2012,28507767,188924,3625
+4116604,Nova América da Colina,13,Cornélio Procópio,Norte,2012,38679964,173174,12080
+4116703,Nova Aurora,17,Cascavel,Oeste,2012,386149610,379775,63111
+4116802,Nova Cantú,19,Campo Mourão,Oeste,2012,102245161,146028,33305
+4116901,Nova Esperança,11,Maringá,Noroeste,2012,147590942,698209,17810
+4116950,Nova Esperança do Sudoeste,23,Dois Vizinhos,Sudoeste,2012,102234121,139955,6354
+4117008,Nova Fátima,13,Cornélio Procópio,Norte,2012,73147354,207929,22452
+4117057,Nova Laranjeiras,21,Laranjeiras do Sul,Centro,2012,94519016,115952,14984
+4117107,Nova Londrina,10,Paranavaí,Noroeste,2012,49785190,242932,5624
+4117206,Nova Olímpia,09,Umuarama,Noroeste,2012,75492625,199999,2864
+4117214,Nova Santa Bárbara,13,Cornélio Procópio,Norte,2012,35145820,69390,10056
+4117222,Nova Santa Rosa,18,Toledo,Oeste,2012,239539955,359250,27905
+4117255,Nova Prata do Iguaçu,23,Dois Vizinhos,Sudoeste,2012,149343177,236821,28821
+4117271,Nova Tebas,06,Pitanga,Centro,2012,63521779,117960,9889
+4117297,Novo Itacolomi,20,Apucarana,Norte,2012,73226407,53801,5000
+4117305,Ortigueira,04,Ponta Grossa,Centro Sul,2012,205205748,262519,114732
+4117404,Ourizona,11,Maringá,Noroeste,2012,62496927,178675,24604
+4117453,Ouro Verde do Oeste,18,Toledo,Oeste,2012,132884949,175026,26497
+4117503,Paiçandu,11,Maringá,Noroeste,2012,55880791,292252,22244
+4117602,Palmas,15,Pato Branco,Sudoeste,2012,142182305,346015,47200
+4117701,Palmeira,04,Ponta Grossa,Centro Sul,2012,393424989,414078,80826
+4117800,Palmital,05,Pitanga,Centro,2012,83602721,131356,8392
+4117909,Palotina,18,Toledo,Oeste,2012,449783988,465065,90743
+4118006,Paraíso do Norte,10,Paranavaí,Noroeste,2012,58324776,727153,13893
+4118105,Paranacity,10,Paranavaí,Noroeste,2012,72540234,1026247,19836
+4118204,Paranaguá,01,Paranaguá,Metropolitana e Litoral,2012,17159074,13474,984
+4118303,Paranapoema,10,Paranavaí,Noroeste,2012,29128501,261425,6953
+4118402,Paranavaí,10,Paranavaí,Noroeste,2012,265146796,1041721,19430
+4118451,Pato Bragado,18,Toledo,Oeste,2012,101185449,138902,10761
+4118501,Pato Branco,15,Pato Branco,Sudoeste,2012,332536806,305099,49825
+4118600,Paula Freitas,03,União da Vitória,Centro Sul,2012,109978089,157534,22786
+4118709,Paulo Frontin,03,União da Vitória,Centro Sul,2012,112696404,119260,25913
+4118808,Peabiru,19,Campo Mourão,Oeste,2012,152981424,326322,43716
+4118857,Perobal,09,Umuarama,Noroeste,2012,77996965,277165,15856
+4118907,Pérola,09,Umuarama,Noroeste,2012,49032652,61031,1557
+4119004,Pérola d'Oeste,16,Francisco Beltrão,Sudoeste,2012,78534244,132631,17575
+4119103,Piên,02,Curitiba,Metropolitana e Litoral,2012,108165723,57594,14876
+4119152,Pinhais,02,Curitiba,Metropolitana e Litoral,2012,713427,962,62
+4119202,Pinhalão,14,Santo Antonio da Platina,Norte,2012,98233357,77169,16004
+4119251,Pinhal de São Bento,16,Francisco Beltrão,Sudoeste,2012,31780969,54582,3326
+4119301,Pinhão,05,Guarapuava,Centro,2012,218167992,349258,72241
+4119400,Piraí do Sul,04,Ponta Grossa,Centro Sul,2012,479758913,526419,84492
+4119509,Piraquara,02,Curitiba,Metropolitana e Litoral,2012,10605344,10856,1200
+4119608,Pitanga,05,Pitanga,Centro,2012,271418550,472675,71386
+4119657,Pitangueiras,12,Londrina,Norte,2012,71173386,102446,12961
+4119707,Planaltina do Paraná,10,Paranavaí,Noroeste,2012,52405671,176038,4286
+4119806,Planalto,16,Francisco Beltrão,Sudoeste,2012,120123280,190631,24511
+4119905,Ponta Grossa,04,Ponta Grossa,Centro Sul,2012,393564270,548464,135923
+4119954,Pontal do Paraná,01,Paranaguá,Metropolitana e Litoral,2012,5815750,1008,142
+4120002,Porecatu,12,Londrina,Norte,2012,45737389,667334,10726
+4120101,Porto Amazonas,02,Curitiba,Metropolitana e Litoral,2012,46221816,52687,9690
+4120150,Porto Barreiro,21,Laranjeiras do Sul,Centro,2012,52045034,66717,12434
+4120200,Porto Rico,10,Paranavaí,Noroeste,2012,42269756,64127,1864
+4120309,Porto Vitória,03,União da Vitória,Centro Sul,2012,44853986,110504,7422
+4120333,Prado Ferreira,12,Londrina,Norte,2012,49797899,183771,14969
+4120358,Pranchita,16,Francisco Beltrão,Sudoeste,2012,78947221,127480,25513
+4120408,Presidente Castelo Branco,11,Maringá,Noroeste,2012,50478087,411262,9924
+4120507,Primeiro de Maio,12,Londrina,Norte,2012,151702538,211012,47176
+4120606,Prudentópolis,07,Irati,Centro Sul,2012,278997944,293730,92206
+4120655,Quarto Centenário,19,Campo Mourão,Oeste,2012,128039771,194541,47970
+4120705,Quatiguá,14,Santo Antonio da Platina,Norte,2012,116464109,504141,4155
+4120804,Quatro Barras,02,Curitiba,Metropolitana e Litoral,2012,9069821,5246,2235
+4120853,Quatro Pontes,18,Toledo,Oeste,2012,109516563,291279,19695
+4120903,Quedas do Iguaçu,21,Laranjeiras do Sul,Centro,2012,177173185,157320,33323
+4121000,Querência do Norte,10,Paranavaí,Noroeste,2012,116191270,225302,19525
+4121109,Quinta do Sol,19,Campo Mourão,Oeste,2012,101891424,327849,42986
+4121208,Quitandinha,02,Curitiba,Metropolitana e Litoral,2012,137584697,136369,23738
+4121257,Ramilândia,17,Cascavel,Oeste,2012,68130802,120991,11302
+4121307,Rancho Alegre,13,Cornélio Procópio,Norte,2012,63301198,121002,26086
+4121356,Rancho Alegre D'Oeste,19,Campo Mourão,Oeste,2012,64134903,113367,31814
+4121406,Realeza,16,Francisco Beltrão,Sudoeste,2012,180305015,220870,32897
+4121505,Rebouças,07,Irati,Centro Sul,2012,147838568,222897,37130
+4121604,Renascença,16,Francisco Beltrão,Sudoeste,2012,139569930,201605,42010
+4121703,Reserva,04,Ponta Grossa,Centro Sul,2012,370904003,364289,146475
+4121752,Reserva do Iguaçu,05,Guarapuava,Centro,2012,92291085,142500,33382
+4121802,Ribeirão Claro,14,Santo Antonio da Platina,Norte,2012,169185814,266402,11436
+4121901,Ribeirão do Pinhal,13,Cornélio Procópio,Norte,2012,65413092,167032,20345
+4122008,Rio Azul,07,Irati,Centro Sul,2012,155444722,135376,28944
+4122107,Rio Bom,20,Apucarana,Norte,2012,36642158,49701,9500
+4122156,Rio Bonito do Iguaçu,21,Laranjeiras do Sul,Centro,2012,151067731,185779,27567
+4122172,Rio Branco do Ivaí,06,Ivaiporã,Norte,2012,47341327,61070,13532
+4122206,Rio Branco do Sul,02,Curitiba,Metropolitana e Litoral,2012,85801336,76513,26611
+4122305,Rio Negro,02,Curitiba,Metropolitana e Litoral,2012,179593557,123866,34764
+4122404,Rolândia,12,Londrina,Norte,2012,288931572,459721,52858
+4122503,Roncador,19,Campo Mourão,Oeste,2012,173613117,225661,56052
+4122602,Rondon,22,Cianorte,Noroeste,2012,122084389,1399586,27210
+4122651,Rosário do Ivaí,06,Ivaiporã,Norte,2012,46611320,66568,3896
+4122701,Sabáudia,20,Apucarana,Norte,2012,99856720,104970,16488
+4122800,Salgado Filho,16,Francisco Beltrão,Sudoeste,2012,140101542,180631,10024
+4122909,Salto do Itararé,14,Santo Antonio da Platina,Norte,2012,62836239,155879,14435
+4123006,Salto do Lontra,23,Dois Vizinhos,Sudoeste,2012,203816011,254085,20217
+4123105,Santa Amélia,13,Cornélio Procópio,Norte,2012,26826317,75048,9130
+4123204,Santa Cecília do Pavão,13,Cornélio Procópio,Norte,2012,35036343,67597,12030
+4123303,Santa Cruz de Monte Castelo,10,Paranavaí,Noroeste,2012,91031435,154313,13444
+4123402,Santa Fé,11,Maringá,Noroeste,2012,109549428,406488,14427
+4123501,Santa Helena,18,Toledo,Oeste,2012,427505026,630124,54769
+4123600,Santa Inês,11,Maringá,Noroeste,2012,28934629,261721,4144
+4123709,Santa Isabel do Ivaí,10,Paranavaí,Noroeste,2012,73654123,141278,7419
+4123808,Santa Izabel do Oeste,16,Francisco Beltrão,Sudoeste,2012,154825145,211412,24222
+4123824,Santa Lúcia,17,Cascavel,Oeste,2012,76128165,148805,12566
+4123857,Santa Maria do Oeste,05,Pitanga,Centro,2012,77031980,127197,18351
+4123907,Santa Mariana,13,Cornélio Procópio,Norte,2012,149632638,649630,59489
+4123956,Santa Mônica,10,Paranavaí,Noroeste,2012,53457315,259563,8473
+4124004,Santana do Itararé,14,Santo Antonio da Platina,Norte,2012,95234388,189932,17906
+4124020,Santa Tereza do Oeste,17,Cascavel,Oeste,2012,152089963,311788,44842
+4124053,Santa Terezinha de Itaipu,17,Cascavel,Oeste,2012,77483861,123570,32314
+4124103,Santo Antônio da Platina,14,Santo Antonio da Platina,Norte,2012,209157393,628676,36601
+4124202,Santo Antônio do Caiuá,10,Paranavaí,Noroeste,2012,24817257,120912,2472
+4124301,Santo Antônio do Paraíso,13,Cornélio Procópio,Norte,2012,45628526,132197,18262
+4124400,Santo Antônio do Sudoeste,16,Francisco Beltrão,Sudoeste,2012,199657534,201361,22482
+4124509,Santo Inácio,11,Maringá,Noroeste,2012,69559704,766163,11094
+4124608,São Carlos do Ivaí,10,Paranavaí,Noroeste,2012,62521455,832435,15814
+4124707,São Jerônimo da Serra,13,Cornélio Procópio,Norte,2012,103497252,140338,32417
+4124806,São João,15,Pato Branco,Sudoeste,2012,166358021,314189,36647
+4124905,São João do Caiuá,10,Paranavaí,Noroeste,2012,50947369,245865,5396
+4125001,São João do Ivaí,06,Ivaiporã,Norte,2012,102259189,344960,41069
+4125100,São João do Triunfo,04,Ponta Grossa,Centro Sul,2012,131089797,66787,16944
+4125209,São Jorge d'Oeste,23,Dois Vizinhos,Sudoeste,2012,141785695,255106,16488
+4125308,São Jorge do Ivaí,11,Maringá,Noroeste,2012,182528826,338204,56263
+4125357,São Jorge do Patrocínio,09,Umuarama,Noroeste,2012,50607661,103213,4054
+4125407,São José da Boa Vista,14,Santo Antonio da Platina,Norte,2012,156266651,262737,32762
+4125456,São José das Palmeiras,18,Toledo,Oeste,2012,69120511,200139,6854
+4125506,São José dos Pinhais,02,Curitiba,Metropolitana e Litoral,2012,296318056,346354,15991
+4125555,São Manoel do Paraná,22,Cianorte,Noroeste,2012,98921766,143497,6033
+4125605,São Mateus do Sul,03,União da Vitória,Centro Sul,2012,257883992,349938,53407
+4125704,São Miguel do Iguaçu,17,Cascavel,Oeste,2012,310591563,447425,94977
+4125753,São Pedro do Iguaçu,18,Toledo,Oeste,2012,107785701,168994,23344
+4125803,São Pedro do Ivaí,06,Ivaiporã,Norte,2012,72797504,722103,26231
+4125902,São Pedro do Paraná,10,Paranavaí,Noroeste,2012,36372316,49858,1036
+4126009,São Sebastião da Amoreira,13,Cornélio Procópio,Norte,2012,100199628,321397,29489
+4126108,São Tomé,22,Cianorte,Noroeste,2012,83484442,807950,14235
+4126207,Sapopema,13,Cornélio Procópio,Norte,2012,38666818,25028,3852
+4126256,Sarandi,11,Maringá,Noroeste,2012,44666621,58789,12986
+4126272,Saudade do Iguaçu,15,Pato Branco,Sudoeste,2012,60519352,161378,4375
+4126306,Sengés,04,Ponta Grossa,Centro Sul,2012,162426236,100745,134802
+4126355,Serranópolis do Iguaçu,17,Cascavel,Oeste,2012,150458610,261542,24032
+4126405,Sertaneja,13,Cornélio Procópio,Norte,2012,158472068,287450,67512
+4126504,Sertanópolis,12,Londrina,Norte,2012,182797392,242550,55314
+4126603,Siqueira Campos,14,Santo Antonio da Platina,Norte,2012,250725578,227826,12476
+4126652,Sulina,15,Pato Branco,Sudoeste,2012,100312668,273277,8783
+4126678,Tamarana,12,Londrina,Norte,2012,189749019,242813,47416
+4126702,Tamboara,10,Paranavaí,Noroeste,2012,49841711,393474,6995
+4126801,Tapejara,22,Cianorte,Noroeste,2012,131871747,1368879,25682
+4126900,Tapira,09,Umuarama,Noroeste,2012,73425323,389512,6979
+4127007,Teixeira Soares,07,Irati,Centro Sul,2012,249599809,438424,61801
+4127106,Telêmaco Borba,04,Ponta Grossa,Centro Sul,2012,245722937,14338,132709
+4127205,Terra Boa,19,Campo Mourão,Oeste,2012,169330398,598853,36831
+4127304,Terra Rica,10,Paranavaí,Noroeste,2012,113584099,736479,13969
+4127403,Terra Roxa,18,Toledo,Oeste,2012,231321278,471482,105746
+4127502,Tibagi,04,Ponta Grossa,Centro Sul,2012,595628566,967632,218092
+4127601,Tijucas do Sul,02,Curitiba,Metropolitana e Litoral,2012,89570881,71858,19164
+4127700,Toledo,18,Toledo,Oeste,2012,1105186645,1351309,136186
+4127809,Tomazina,14,Santo Antonio da Platina,Norte,2012,130451756,153660,16105
+4127858,Três Barras do Paraná,17,Cascavel,Oeste,2012,212351888,347777,28213
+4127882,Tunas do Paraná,02,Curitiba,Metropolitana e Litoral,2012,75569945,10078,32103
+4127908,Tuneiras do Oeste,22,Cianorte,Noroeste,2012,122710703,819455,29254
+4127957,Tupãssi,18,Toledo,Oeste,2012,187970378,258219,47885
+4127965,Turvo,05,Guarapuava,Centro,2012,88929627,139364,25311
+4128005,Ubiratã,19,Campo Mourão,Oeste,2012,345276466,474253,105075
+4128104,Umuarama,09,Umuarama,Noroeste,2012,246186388,1227662,24377
+4128203,União da Vitória,03,União da Vitória,Centro Sul,2012,73411883,175806,18191
+4128302,Uniflor,11,Maringá,Noroeste,2012,32793156,158938,5612
+4128401,Uraí,13,Cornélio Procópio,Norte,2012,76925465,131484,24636
+4128500,Wenceslau Braz,14,Santo Antonio da Platina,Norte,2012,182318554,208667,29965
+4128534,Ventania,04,Ponta Grossa,Centro Sul,2012,134866251,220055,75715
+4128559,Vera Cruz do Oeste,17,Cascavel,Oeste,2012,144551547,287599,35973
+4128609,Verê,16,Francisco Beltrão,Sudoeste,2012,197926559,245814,29050
+4128625,Alto Paraíso,09,Umuarama,Noroeste,2012,99627338,130092,3237
+4128633,Doutor Ulysses,02,Curitiba,Metropolitana e Litoral,2012,99850907,72102,40985
+4128658,Virmond,21,Laranjeiras do Sul,Centro,2012,50052334,88934,11821
+4128708,Vitorino,15,Pato Branco,Sudoeste,2012,109845209,201782,35316
+4128807,Xambrê,09,Umuarama,Noroeste,2012,57051259,193175,3086
+4100103,Abatiá,13,Cornélio Procópio,Norte,2024,202686109,111650,32297
+4100202,Adrianópolis,02,Curitiba,Metropolitana e Litoral,2024,202418700,67354,36498
+4100301,Agudos do Sul,02,Curitiba,Metropolitana e Litoral,2024,144575533,31586,17611
+4100400,Almirante Tamandaré,02,Curitiba,Metropolitana e Litoral,2024,114465602,37369,4449
+4100459,Altamira do Paraná,19,Campo Mourão,Oeste,2024,166065150,38718,37432
+4100509,Altônia,09,Umuarama,Noroeste,2024,417363376,237057,82893
+4100608,Alto Paraná,10,Paranavaí,Noroeste,2024,674083404,484916,37907
+4100707,Alto Piquiri,09,Umuarama,Noroeste,2024,313814839,200668,68736
+4100806,Alvorada do Sul,12,Londrina,Norte,2024,267982914,210967,45238
+4100905,Amaporã,10,Paranavaí,Noroeste,2024,259677883,832938,43524
+4101002,Ampére,16,Francisco Beltrão,Sudoeste,2024,494307176,241007,30306
+4101051,Anahy,17,Cascavel,Oeste,2024,210445195,90776,16874
+4101101,Andirá,13,Cornélio Procópio,Norte,2024,200771138,677641,35589
+4101150,Ângulo,11,Maringá,Noroeste,2024,221338998,107746,17416
+4101200,Antonina,01,Paranaguá,Metropolitana e Litoral,2024,48980763,16759,1134
+4101309,Antônio Olinto,03,União da Vitória,Centro Sul,2024,380934269,135656,39377
+4101408,Apucarana,20,Apucarana,Norte,2024,752534554,240458,63592
+4101507,Arapongas,20,Apucarana,Norte,2024,584575239,214333,51078
+4101606,Arapoti,04,Ponta Grossa,Centro Sul,2024,1405958029,959492,163798
+4101655,Arapuã,06,Ivaiporã,Norte,2024,163381187,112416,29770
+4101705,Araruna,19,Campo Mourão,Oeste,2024,455037130,266596,55207
+4101804,Araucária,02,Curitiba,Metropolitana e Litoral,2024,464862983,203147,41674
+4101853,Ariranha do Ivaí,06,Ivaiporã,Norte,2024,173767653,126939,33008
+4101903,Assaí,13,Cornélio Procópio,Norte,2024,275800040,175935,64129
+4102000,Assis Chateaubriand,18,Toledo,Oeste,2024,1859382145,736990,152693
+4102109,Astorga,11,Maringá,Noroeste,2024,1093869169,425860,64548
+4102208,Atalaia,11,Maringá,Noroeste,2024,254822723,175237,18313
+4102307,Balsa Nova,02,Curitiba,Metropolitana e Litoral,2024,197479757,65206,30188
+4102406,Bandeirantes,13,Cornélio Procópio,Norte,2024,315780405,846280,55906
+4102505,Barbosa Ferraz,19,Campo Mourão,Oeste,2024,266536731,132082,63581
+4102604,Barracão,16,Francisco Beltrão,Sudoeste,2024,243229053,154577,12782
+4102703,Barra do Jacaré,14,Santo Antonio da Platina,Norte,2024,222785786,265261,15487
+4102752,Bela Vista da Caroba,16,Francisco Beltrão,Sudoeste,2024,142518980,97587,15927
+4102802,Bela Vista do Paraíso,12,Londrina,Norte,2024,243887946,147513,38258
+4102901,Bituruna,03,União da Vitória,Centro Sul,2024,669978153,276826,80081
+4103008,Boa Esperança,19,Campo Mourão,Oeste,2024,282786797,207537,50938
+4103024,Boa Esperança do Iguaçu,23,Dois Vizinhos,Sudoeste,2024,335238340,101496,19759
+4103040,Boa Ventura de São Roque,05,Pitanga,Centro,2024,387561670,242124,63384
+4103057,Boa Vista da Aparecida,17,Cascavel,Oeste,2024,209894341,116351,31246
+4103107,Bocaiúva do Sul,02,Curitiba,Metropolitana e Litoral,2024,148559589,38599,75098
+4103156,Bom Jesus do Sul,16,Francisco Beltrão,Sudoeste,2024,219589233,190705,19200
+4103206,Bom Sucesso,20,Apucarana,Norte,2024,414886089,567365,35700
+4103222,Bom Sucesso do Sul,15,Pato Branco,Sudoeste,2024,399566974,186949,41933
+4103305,Borrazópolis,06,Ivaiporã,Norte,2024,207928834,97671,38642
+4103354,Braganey,17,Cascavel,Oeste,2024,374449877,241301,55632
+4103370,Brasilândia do Sul,09,Umuarama,Noroeste,2024,216241402,145378,47688
+4103404,Cafeara,12,Londrina,Norte,2024,202996176,410642,17442
+4103453,Cafelândia,17,Cascavel,Oeste,2024,1258038657,451729,51040
+4103479,Cafezal do Sul,09,Umuarama,Noroeste,2024,340906606,124732,33252
+4103503,Califórnia,20,Apucarana,Norte,2024,160156110,76222,18526
+4103602,Cambará,14,Santo Antonio da Platina,Norte,2024,280915895,845238,46733
+4103701,Cambé,12,Londrina,Norte,2024,525879991,325902,72089
+4103800,Cambira,20,Apucarana,Norte,2024,245846236,118919,20471
+4103909,Campina da Lagoa,19,Campo Mourão,Oeste,2024,673810567,366833,109101
+4103958,Campina do Simão,05,Guarapuava,Centro,2024,286022030,153220,33122
+4104006,Campina Grande do Sul,02,Curitiba,Metropolitana e Litoral,2024,59423813,15505,46974
+4104055,Campo Bonito,17,Cascavel,Oeste,2024,383627942,241730,59789
+4104105,Campo do Tenente,02,Curitiba,Metropolitana e Litoral,2024,219162670,70915,29540
+4104204,Campo Largo,02,Curitiba,Metropolitana e Litoral,2024,335339439,117519,35612
+4104253,Campo Magro,02,Curitiba,Metropolitana e Litoral,2024,131694096,45385,7125
+4104303,Campo Mourão,19,Campo Mourão,Oeste,2024,770799352,400335,116870
+4104402,Cândido de Abreu,06,Pitanga,Centro,2024,449677790,196707,96280
+4104428,Candói,05,Guarapuava,Centro,2024,962420130,506799,119107
+4104451,Cantagalo,05,Guarapuava,Centro,2024,397341348,201747,52262
+4104501,Capanema,16,Francisco Beltrão,Sudoeste,2024,798256835,496292,48732
+4104600,Capitão Leônidas Marques,17,Cascavel,Oeste,2024,468195830,198465,36026
+4104659,Carambeí,04,Ponta Grossa,Centro Sul,2024,2327615039,1322463,99179
+4104709,Carlópolis,14,Santo Antonio da Platina,Norte,2024,763374314,245946,34708
+4104808,Cascavel,17,Cascavel,Oeste,2024,3632858045,1954969,303428
+4104907,Castro,04,Ponta Grossa,Centro Sul,2024,3620285888,2882776,293170
+4105003,Catanduvas,17,Cascavel,Oeste,2024,633270761,341450,79507
+4105102,Centenário do Sul,12,Londrina,Norte,2024,298826516,763744,43671
+4105201,Cerro Azul,02,Curitiba,Metropolitana e Litoral,2024,622607979,239108,62942
+4105300,Céu Azul,17,Cascavel,Oeste,2024,711458477,344860,137596
+4105409,Chopinzinho,15,Pato Branco,Sudoeste,2024,846639024,508511,126196
+4105508,Cianorte,22,Cianorte,Noroeste,2024,1245961621,1299606,79908
+4105607,Cidade Gaúcha,22,Cianorte,Noroeste,2024,213678465,450159,36009
+4105706,Clevelândia,15,Pato Branco,Sudoeste,2024,532207837,274563,99316
+4105805,Colombo,02,Curitiba,Metropolitana e Litoral,2024,288842317,74909,10627
+4105904,Colorado,11,Maringá,Noroeste,2024,353389301,1546890,33854
+4106001,Congonhinhas,13,Cornélio Procópio,Norte,2024,335354693,170379,61406
+4106100,Conselheiro Mairinck,14,Santo Antonio da Platina,Norte,2024,168089041,149788,22251
+4106209,Contenda,02,Curitiba,Metropolitana e Litoral,2024,309044759,140438,30312
+4106308,Corbélia,17,Cascavel,Oeste,2024,1052406053,504872,85702
+4106407,Cornélio Procópio,13,Cornélio Procópio,Norte,2024,335309246,361005,82068
+4106456,Coronel Domingos Soares,15,Pato Branco,Sudoeste,2024,374804537,160854,155678
+4106506,Coronel Vivida,15,Pato Branco,Sudoeste,2024,863527198,503649,87968
+4106555,Corumbataí do Sul,19,Campo Mourão,Oeste,2024,122697351,33714,17406
+4106571,Cruzeiro do Iguaçu,23,Dois Vizinhos,Sudoeste,2024,400046170,96254,18092
+4106605,Cruzeiro do Oeste,09,Umuarama,Noroeste,2024,565591310,716198,70139
+4106704,Cruzeiro do Sul,10,Paranavaí,Noroeste,2024,296825046,469892,29166
+4106803,Cruz Machado,03,União da Vitória,Centro Sul,2024,808067943,327174,65595
+4106852,Cruzmaltina,06,Ivaiporã,Norte,2024,273568124,115301,35027
+4106902,Curitiba,02,Curitiba,Metropolitana e Litoral,2024,16129404,2994,9220
+4107009,Curiúva,14,Santo Antonio da Platina,Norte,2024,243884295,132523,51456
+4107108,Diamante do Norte,10,Paranavaí,Noroeste,2024,125322175,121459,24128
+4107124,Diamante do Sul,21,Laranjeiras do Sul,Centro,2024,117030098,51416,32729
+4107157,Diamante d'Oeste,17,Cascavel,Oeste,2024,252680774,95324,35086
+4107207,Dois Vizinhos,23,Dois Vizinhos,Sudoeste,2024,2022494939,577581,59344
+4107256,Douradina,09,Umuarama,Noroeste,2024,311091340,191449,44945
+4107306,Doutor Camargo,11,Maringá,Noroeste,2024,141861508,79145,19732
+4107405,Enéas Marques,16,Francisco Beltrão,Sudoeste,2024,657908845,338646,18157
+4107504,Engenheiro Beltrão,19,Campo Mourão,Oeste,2024,453743458,296067,74666
+4107520,Esperança Nova,09,Umuarama,Noroeste,2024,161580739,72484,13094
+4107538,Entre Rios do Oeste,18,Toledo,Oeste,2024,485614616,249567,14031
+4107546,Espigão Alto do Iguaçu,21,Laranjeiras do Sul,Centro,2024,276439962,158509,40119
+4107553,Farol,19,Campo Mourão,Oeste,2024,296731331,213319,51704
+4107603,Faxinal,06,Ivaiporã,Norte,2024,374125572,178969,60820
+4107652,Fazenda Rio Grande,02,Curitiba,Metropolitana e Litoral,2024,66180126,20582,7748
+4107702,Fênix,19,Campo Mourão,Oeste,2024,215583094,146357,38748
+4107736,Fernandes Pinheiro,07,Irati,Centro Sul,2024,370442220,164293,47721
+4107751,Figueira,14,Santo Antonio da Platina,Norte,2024,76713754,32027,9894
+4107801,Floraí,11,Maringá,Noroeste,2024,245792441,178623,29646
+4107850,Flor da Serra do Sul,16,Francisco Beltrão,Sudoeste,2024,284024730,177167,18504
+4107900,Floresta,11,Maringá,Noroeste,2024,144569604,108043,26086
+4108007,Florestópolis,12,Londrina,Norte,2024,210410832,547172,26632
+4108106,Flórida,11,Maringá,Noroeste,2024,79619472,127214,10456
+4108205,Formosa do Oeste,18,Toledo,Oeste,2024,702957004,233666,39263
+4108304,Foz do Iguaçu,17,Cascavel,Oeste,2024,204656394,118837,36933
+4108320,Francisco Alves,09,Umuarama,Noroeste,2024,326844363,185089,44085
+4108403,Francisco Beltrão,16,Francisco Beltrão,Sudoeste,2024,1605056023,915908,67011
+4108452,Foz do Jordão,05,Guarapuava,Centro,2024,201279167,131064,25718
+4108502,General Carneiro,03,União da Vitória,Centro Sul,2024,908052573,246910,34883
+4108551,Godoy Moreira,06,Ivaiporã,Norte,2024,115441158,64558,19625
+4108601,Goioerê,19,Campo Mourão,Oeste,2024,812576802,285743,79441
+4108650,Goioxim,05,Guarapuava,Centro,2024,442859879,217276,61420
+4108700,Grandes Rios,06,Ivaiporã,Norte,2024,176250303,69086,30080
+4108809,Guaíra,18,Toledo,Oeste,2024,446091886,220632,77273
+4108908,Guairaçá,10,Paranavaí,Noroeste,2024,313946921,752503,42994
+4108957,Guamiranga,07,Irati,Centro Sul,2024,343292482,101410,29358
+4109005,Guapirama,14,Santo Antonio da Platina,Norte,2024,314659769,196661,22701
+4109104,Guaporema,22,Cianorte,Noroeste,2024,221628867,614196,16950
+4109203,Guaraci,12,Londrina,Norte,2024,425321404,389948,23256
+4109302,Guaraniaçu,21,Laranjeiras do Sul,Centro,2024,740898962,345636,140784
+4109401,Guarapuava,05,Guarapuava,Centro,2024,2330378603,1062209,196210
+4109500,Guaraqueçaba,01,Paranaguá,Metropolitana e Litoral,2024,76884625,20598,1392
+4109609,Guaratuba,01,Paranaguá,Metropolitana e Litoral,2024,228401741,91817,5439
+4109658,Honório Serpa,15,Pato Branco,Sudoeste,2024,478453842,328508,66360
+4109708,Ibaiti,14,Santo Antonio da Platina,Norte,2024,628017256,271638,78239
+4109757,Ibema,17,Cascavel,Oeste,2024,173144553,101576,19144
+4109807,Ibiporã,12,Londrina,Norte,2024,257733186,149384,37523
+4109906,Icaraíma,09,Umuarama,Noroeste,2024,368304278,458333,73638
+4110003,Iguaraçu,11,Maringá,Noroeste,2024,315246354,278212,23650
+4110052,Iguatu,17,Cascavel,Oeste,2024,143006713,64813,14762
+4110078,Imbaú,04,Ponta Grossa,Centro Sul,2024,124508270,38461,31810
+4110102,Imbituva,07,Irati,Centro Sul,2024,757403081,319354,89051
+4110201,Inácio Martins,07,Irati,Centro Sul,2024,480995962,158814,95936
+4110300,Inajá,10,Paranavaí,Noroeste,2024,76946003,334457,14106
+4110409,Indianópolis,22,Cianorte,Noroeste,2024,220254342,196809,10751
+4110508,Ipiranga,04,Ponta Grossa,Centro Sul,2024,767256906,292148,104200
+4110607,Iporã,09,Umuarama,Noroeste,2024,918668786,256459,73625
+4110656,Iracema do Oeste,18,Toledo,Oeste,2024,170849732,79756,14481
+4110706,Irati,07,Irati,Centro Sul,2024,984275571,438503,116176
+4110805,Iretama,19,Campo Mourão,Oeste,2024,315775642,144777,65808
+4110904,Itaguajé,11,Maringá,Noroeste,2024,183828367,459675,15171
+4110953,Itaipulândia,17,Cascavel,Oeste,2024,1067544721,277285,28386
+4111001,Itambaracá,13,Cornélio Procópio,Norte,2024,167697036,312474,28302
+4111100,Itambé,11,Maringá,Noroeste,2024,198096867,161475,41010
+4111209,Itapejara d'Oeste,15,Pato Branco,Sudoeste,2024,565250727,195507,41997
+4111258,Itaperuçu,02,Curitiba,Metropolitana e Litoral,2024,82751689,27999,12642
+4111308,Itaúna do Sul,10,Paranavaí,Noroeste,2024,95673913,172499,10111
+4111407,Ivaí,04,Ponta Grossa,Centro Sul,2024,398215881,181332,73048
+4111506,Ivaiporã,06,Ivaiporã,Norte,2024,310771923,177950,55017
+4111555,Ivaté,09,Umuarama,Noroeste,2024,181283403,513452,32945
+4111605,Ivatuba,11,Maringá,Noroeste,2024,101352125,67710,16740
+4111704,Jaboti,14,Santo Antonio da Platina,Norte,2024,270834693,71085,14353
+4111803,Jacarezinho,14,Santo Antonio da Platina,Norte,2024,814247049,1449559,52759
+4111902,Jaguapitã,12,Londrina,Norte,2024,627996621,879215,54058
+4112009,Jaguariaíva,04,Ponta Grossa,Centro Sul,2024,795573580,397056,145113
+4112108,Jandaia do Sul,20,Apucarana,Norte,2024,321685202,238212,14553
+4112207,Janiópolis,19,Campo Mourão,Oeste,2024,340841513,249212,51050
+4112306,Japira,14,Santo Antonio da Platina,Norte,2024,319647204,76021,18528
+4112405,Japurá,22,Cianorte,Noroeste,2024,222297747,192459,22382
+4112504,Jardim Alegre,06,Ivaiporã,Norte,2024,251301653,154823,45178
+4112603,Jardim Olinda,10,Paranavaí,Noroeste,2024,112976344,316931,11893
+4112702,Jataizinho,13,Cornélio Procópio,Norte,2024,142644331,60398,23441
+4112751,Jesuítas,18,Toledo,Oeste,2024,744964976,284238,35573
+4112801,Joaquim Távora,14,Santo Antonio da Platina,Norte,2024,421379246,258387,28759
+4112900,Jundiaí do Sul,14,Santo Antonio da Platina,Norte,2024,155096451,114284,33099
+4112959,Juranda,19,Campo Mourão,Oeste,2024,397307299,290373,61518
+4113007,Jussara,22,Cianorte,Noroeste,2024,282714358,405899,30748
+4113106,Kaloré,20,Apucarana,Norte,2024,160458377,113232,31546
+4113205,Lapa,02,Curitiba,Metropolitana e Litoral,2024,1411109904,513642,202106
+4113254,Laranjal,05,Pitanga,Centro,2024,216799817,87962,53369
+4113304,Laranjeiras do Sul,21,Laranjeiras do Sul,Centro,2024,588118123,322207,76944
+4113403,Leópolis,13,Cornélio Procópio,Norte,2024,213992852,135035,48986
+4113429,Lidianópolis,06,Ivaiporã,Norte,2024,128137427,57975,20450
+4113452,Lindoeste,17,Cascavel,Oeste,2024,359027551,180928,44863
+4113502,Loanda,10,Paranavaí,Noroeste,2024,368117663,666242,68077
+4113601,Lobato,11,Maringá,Noroeste,2024,271361108,762297,25384
+4113700,Londrina,12,Londrina,Norte,2024,1256206567,677513,170503
+4113734,Luiziana,19,Campo Mourão,Oeste,2024,715259917,455333,130581
+4113759,Lunardelli,06,Ivaiporã,Norte,2024,132654175,57664,21145
+4113809,Lupionópolis,12,Londrina,Norte,2024,93121194,109141,15898
+4113908,Mallet,07,Irati,Centro Sul,2024,368304367,143201,77508
+4114005,Mamborê,19,Campo Mourão,Oeste,2024,900696978,557840,125287
+4114104,Mandaguaçu,11,Maringá,Noroeste,2024,456683158,660645,33011
+4114203,Mandaguari,11,Maringá,Noroeste,2024,571632583,232642,38120
+4114302,Mandirituba,02,Curitiba,Metropolitana e Litoral,2024,242427201,61784,33973
+4114351,Manfrinópolis,16,Francisco Beltrão,Sudoeste,2024,269547071,148627,15250
+4114401,Mangueirinha,15,Pato Branco,Sudoeste,2024,853238018,678206,131808
+4114500,Manoel Ribas,06,Pitanga,Centro,2024,542304050,381212,88731
+4114609,Marechal Cândido Rondon,18,Toledo,Oeste,2024,2171456748,1078690,77817
+4114708,Maria Helena,09,Umuarama,Noroeste,2024,307013596,244012,47162
+4114807,Marialva,11,Maringá,Noroeste,2024,560778068,244429,64754
+4114906,Marilândia do Sul,20,Apucarana,Norte,2024,646965636,319088,57608
+4115002,Marilena,10,Paranavaí,Noroeste,2024,253413047,413447,18847
+4115101,Mariluz,09,Umuarama,Noroeste,2024,256233271,343893,57474
+4115200,Maringá,11,Maringá,Noroeste,2024,356553317,267872,51322
+4115309,Mariópolis,15,Pato Branco,Sudoeste,2024,366901427,151389,38946
+4115358,Maripá,18,Toledo,Oeste,2024,837553676,311613,48256
+4115408,Marmeleiro,16,Francisco Beltrão,Sudoeste,2024,626921318,407940,42954
+4115457,Marquinho,21,Laranjeiras do Sul,Centro,2024,197821124,111696,47980
+4115507,Marumbi,20,Apucarana,Norte,2024,160397331,236268,20075
+4115606,Matelândia,17,Cascavel,Oeste,2024,939856025,371473,78113
+4115705,Matinhos,01,Paranaguá,Metropolitana e Litoral,2024,15173995,1174,111
+4115739,Mato Rico,05,Pitanga,Centro,2024,203111586,119871,42919
+4115754,Mauá da Serra,20,Apucarana,Norte,2024,128961330,66221,12488
+4115804,Medianeira,17,Cascavel,Oeste,2024,1112639887,433725,43636
+4115853,Mercedes,18,Toledo,Oeste,2024,561413695,188471,17535
+4115903,Mirador,10,Paranavaí,Noroeste,2024,269405083,579622,21963
+4116000,Miraselva,12,Londrina,Norte,2024,74835552,268829,7302
+4116059,Missal,17,Cascavel,Oeste,2024,1182229546,472705,42602
+4116109,Moreira Sales,19,Campo Mourão,Oeste,2024,369053359,287724,35860
+4116208,Morretes,01,Paranaguá,Metropolitana e Litoral,2024,101485511,38181,51581
+4116307,Munhoz de Melo,11,Maringá,Noroeste,2024,486118529,235506,17284
+4116406,Nossa Senhora das Graças,11,Maringá,Noroeste,2024,141240629,506834,15004
+4116505,Nova Aliança do Ivaí,10,Paranavaí,Noroeste,2024,111624900,281959,15167
+4116604,Nova América da Colina,13,Cornélio Procópio,Norte,2024,76592051,104076,17412
+4116703,Nova Aurora,17,Cascavel,Oeste,2024,1777896834,562543,78051
+4116802,Nova Cantú,19,Campo Mourão,Oeste,2024,446808594,274227,75329
+4116901,Nova Esperança,11,Maringá,Noroeste,2024,749373323,673499,36248
+4116950,Nova Esperança do Sudoeste,23,Dois Vizinhos,Sudoeste,2024,427675082,247376,18582
+4117008,Nova Fátima,13,Cornélio Procópio,Norte,2024,231643587,88908,40621
+4117057,Nova Laranjeiras,21,Laranjeiras do Sul,Centro,2024,457870683,247261,109441
+4117107,Nova Londrina,10,Paranavaí,Noroeste,2024,245288394,581922,25805
+4117206,Nova Olímpia,09,Umuarama,Noroeste,2024,275486486,185922,14329
+4117214,Nova Santa Bárbara,13,Cornélio Procópio,Norte,2024,126037574,53332,13894
+4117222,Nova Santa Rosa,18,Toledo,Oeste,2024,1058235189,436850,31695
+4117255,Nova Prata do Iguaçu,23,Dois Vizinhos,Sudoeste,2024,733010725,276037,51498
+4117271,Nova Tebas,06,Pitanga,Centro,2024,306325237,164453,61991
+4117297,Novo Itacolomi,20,Apucarana,Norte,2024,220201827,58721,15436
+4117305,Ortigueira,04,Ponta Grossa,Centro Sul,2024,812048153,329310,245753
+4117404,Ourizona,11,Maringá,Noroeste,2024,174035669,152329,28696
+4117453,Ouro Verde do Oeste,18,Toledo,Oeste,2024,707485436,203252,34060
+4117503,Paiçandu,11,Maringá,Noroeste,2024,177481573,338371,24040
+4117602,Palmas,15,Pato Branco,Sudoeste,2024,600917418,332352,152713
+4117701,Palmeira,04,Ponta Grossa,Centro Sul,2024,1318873563,716796,176763
+4117800,Palmital,05,Pitanga,Centro,2024,366888154,163761,63371
+4117909,Palotina,18,Toledo,Oeste,2024,1627676032,501945,100849
+4118006,Paraíso do Norte,10,Paranavaí,Noroeste,2024,138381036,568467,19337
+4118105,Paranacity,10,Paranavaí,Noroeste,2024,195690971,945268,26940
+4118204,Paranaguá,01,Paranaguá,Metropolitana e Litoral,2024,33924199,10377,41165
+4118303,Paranapoema,10,Paranavaí,Noroeste,2024,81432701,411202,16071
+4118402,Paranavaí,10,Paranavaí,Noroeste,2024,1011101815,1162736,121705
+4118451,Pato Bragado,18,Toledo,Oeste,2024,581445047,201484,13368
+4118501,Pato Branco,15,Pato Branco,Sudoeste,2024,929844663,369711,86219
+4118600,Paula Freitas,03,União da Vitória,Centro Sul,2024,436393313,219905,40971
+4118709,Paulo Frontin,03,União da Vitória,Centro Sul,2024,424887171,157823,35508
+4118808,Peabiru,19,Campo Mourão,Oeste,2024,399929847,254491,66972
+4118857,Perobal,09,Umuarama,Noroeste,2024,268616459,118527,42792
+4118907,Pérola,09,Umuarama,Noroeste,2024,234200880,123679,28358
+4119004,Pérola d'Oeste,16,Francisco Beltrão,Sudoeste,2024,244499723,160961,27632
+4119103,Piên,02,Curitiba,Metropolitana e Litoral,2024,220905543,44326,23971
+4119152,Pinhais,02,Curitiba,Metropolitana e Litoral,2024,3548563,1675,1127
+4119202,Pinhalão,14,Santo Antonio da Platina,Norte,2024,379970797,90225,21758
+4119251,Pinhal de São Bento,16,Francisco Beltrão,Sudoeste,2024,140968337,99846,10480
+4119301,Pinhão,05,Guarapuava,Centro,2024,1030672293,584185,109977
+4119400,Piraí do Sul,04,Ponta Grossa,Centro Sul,2024,1537363052,700342,137663
+4119509,Piraquara,02,Curitiba,Metropolitana e Litoral,2024,28355335,14643,14369
+4119608,Pitanga,05,Pitanga,Centro,2024,976781972,553113,154662
+4119657,Pitangueiras,12,Londrina,Norte,2024,204078585,95982,19597
+4119707,Planaltina do Paraná,10,Paranavaí,Noroeste,2024,177947240,154480,29753
+4119806,Planalto,16,Francisco Beltrão,Sudoeste,2024,469693711,327550,39714
+4119905,Ponta Grossa,04,Ponta Grossa,Centro Sul,2024,1106477733,581873,129339
+4119954,Pontal do Paraná,01,Paranaguá,Metropolitana e Litoral,2024,19865881,1972,15258
+4120002,Porecatu,12,Londrina,Norte,2024,119828056,625923,17556
+4120101,Porto Amazonas,02,Curitiba,Metropolitana e Litoral,2024,134313160,84713,15012
+4120150,Porto Barreiro,21,Laranjeiras do Sul,Centro,2024,276781878,173141,41533
+4120200,Porto Rico,10,Paranavaí,Noroeste,2024,97015446,31979,15106
+4120309,Porto Vitória,03,União da Vitória,Centro Sul,2024,164061159,109365,14825
+4120333,Prado Ferreira,12,Londrina,Norte,2024,142619666,183623,20574
+4120358,Pranchita,16,Francisco Beltrão,Sudoeste,2024,336146721,164226,34937
+4120408,Presidente Castelo Branco,11,Maringá,Noroeste,2024,230043814,307939,13177
+4120507,Primeiro de Maio,12,Londrina,Norte,2024,352390072,188554,49677
+4120606,Prudentópolis,07,Irati,Centro Sul,2024,1353086374,568623,143679
+4120655,Quarto Centenário,19,Campo Mourão,Oeste,2024,506043729,293631,55838
+4120705,Quatiguá,14,Santo Antonio da Platina,Norte,2024,237338196,257619,16981
+4120804,Quatro Barras,02,Curitiba,Metropolitana e Litoral,2024,16373722,5146,14974
+4120853,Quatro Pontes,18,Toledo,Oeste,2024,577481508,319959,18994
+4120903,Quedas do Iguaçu,21,Laranjeiras do Sul,Centro,2024,710660260,363557,99862
+4121000,Querência do Norte,10,Paranavaí,Noroeste,2024,395797719,222355,86366
+4121109,Quinta do Sol,19,Campo Mourão,Oeste,2024,306422157,148566,50048
+4121208,Quitandinha,02,Curitiba,Metropolitana e Litoral,2024,328447221,96456,41638
+4121257,Ramilândia,17,Cascavel,Oeste,2024,242098097,128496,29558
+4121307,Rancho Alegre,13,Cornélio Procópio,Norte,2024,144489744,133821,22397
+4121356,Rancho Alegre D'Oeste,19,Campo Mourão,Oeste,2024,311983603,181170,41454
+4121406,Realeza,16,Francisco Beltrão,Sudoeste,2024,574850431,233636,45427
+4121505,Rebouças,07,Irati,Centro Sul,2024,567584076,294828,67864
+4121604,Renascença,16,Francisco Beltrão,Sudoeste,2024,488069640,237280,59622
+4121703,Reserva,04,Ponta Grossa,Centro Sul,2024,707868484,308869,180997
+4121752,Reserva do Iguaçu,05,Guarapuava,Centro,2024,339371154,196678,47285
+4121802,Ribeirão Claro,14,Santo Antonio da Platina,Norte,2024,411807163,460473,50268
+4121901,Ribeirão do Pinhal,13,Cornélio Procópio,Norte,2024,204825829,101253,46420
+4122008,Rio Azul,07,Irati,Centro Sul,2024,643575737,195241,65106
+4122107,Rio Bom,20,Apucarana,Norte,2024,172519075,76211,21402
+4122156,Rio Bonito do Iguaçu,21,Laranjeiras do Sul,Centro,2024,656580410,387751,96033
+4122172,Rio Branco do Ivaí,06,Ivaiporã,Norte,2024,165798401,98570,40059
+4122206,Rio Branco do Sul,02,Curitiba,Metropolitana e Litoral,2024,221250083,54898,28234
+4122305,Rio Negro,02,Curitiba,Metropolitana e Litoral,2024,383983258,97103,58578
+4122404,Rolândia,12,Londrina,Norte,2024,524320302,238348,70221
+4122503,Roncador,19,Campo Mourão,Oeste,2024,610959035,270877,98910
+4122602,Rondon,22,Cianorte,Noroeste,2024,370643652,874078,37065
+4122651,Rosário do Ivaí,06,Ivaiporã,Norte,2024,199294610,67843,36816
+4122701,Sabáudia,20,Apucarana,Norte,2024,293581415,106208,27275
+4122800,Salgado Filho,16,Francisco Beltrão,Sudoeste,2024,317664704,209888,18724
+4122909,Salto do Itararé,14,Santo Antonio da Platina,Norte,2024,149795653,179600,22364
+4123006,Salto do Lontra,23,Dois Vizinhos,Sudoeste,2024,766297858,353116,36683
+4123105,Santa Amélia,13,Cornélio Procópio,Norte,2024,78160738,60636,12332
+4123204,Santa Cecília do Pavão,13,Cornélio Procópio,Norte,2024,69908933,32697,13056
+4123303,Santa Cruz de Monte Castelo,10,Paranavaí,Noroeste,2024,291297502,108217,40271
+4123402,Santa Fé,11,Maringá,Noroeste,2024,370773927,425553,28983
+4123501,Santa Helena,18,Toledo,Oeste,2024,2484807127,739936,73152
+4123600,Santa Inês,11,Maringá,Noroeste,2024,86750106,353388,10146
+4123709,Santa Isabel do Ivaí,10,Paranavaí,Noroeste,2024,281229128,228570,33012
+4123808,Santa Izabel do Oeste,16,Francisco Beltrão,Sudoeste,2024,811325605,357397,44356
+4123824,Santa Lúcia,17,Cascavel,Oeste,2024,217937865,92917,21109
+4123857,Santa Maria do Oeste,05,Pitanga,Centro,2024,459006703,290853,68366
+4123907,Santa Mariana,13,Cornélio Procópio,Norte,2024,293062093,413590,63380
+4123956,Santa Mônica,10,Paranavaí,Noroeste,2024,184588155,360027,26626
+4124004,Santana do Itararé,14,Santo Antonio da Platina,Norte,2024,264627193,337264,34354
+4124020,Santa Tereza do Oeste,17,Cascavel,Oeste,2024,465548196,277574,51191
+4124053,Santa Terezinha de Itaipu,17,Cascavel,Oeste,2024,278472612,177082,47677
+4124103,Santo Antônio da Platina,14,Santo Antonio da Platina,Norte,2024,613461740,588003,77401
+4124202,Santo Antônio do Caiuá,10,Paranavaí,Noroeste,2024,90489618,109545,20311
+4124301,Santo Antônio do Paraíso,13,Cornélio Procópio,Norte,2024,122697918,78129,18782
+4124400,Santo Antônio do Sudoeste,16,Francisco Beltrão,Sudoeste,2024,975145417,284199,33182
+4124509,Santo Inácio,11,Maringá,Noroeste,2024,213943219,794342,24347
+4124608,São Carlos do Ivaí,10,Paranavaí,Noroeste,2024,154395587,617473,19405
+4124707,São Jerônimo da Serra,13,Cornélio Procópio,Norte,2024,328533754,156960,79373
+4124806,São João,15,Pato Branco,Sudoeste,2024,573412166,346955,70032
+4124905,São João do Caiuá,10,Paranavaí,Noroeste,2024,214255722,214023,29754
+4125001,São João do Ivaí,06,Ivaiporã,Norte,2024,308506719,220113,49638
+4125100,São João do Triunfo,04,Ponta Grossa,Centro Sul,2024,569344404,110433,78072
+4125209,São Jorge d'Oeste,23,Dois Vizinhos,Sudoeste,2024,681501142,402808,42843
+4125308,São Jorge do Ivaí,11,Maringá,Noroeste,2024,484870540,258502,55524
+4125357,São Jorge do Patrocínio,09,Umuarama,Noroeste,2024,224379071,120885,51275
+4125407,São José da Boa Vista,14,Santo Antonio da Platina,Norte,2024,249339041,160031,39330
+4125456,São José das Palmeiras,18,Toledo,Oeste,2024,201719828,96160,19501
+4125506,São José dos Pinhais,02,Curitiba,Metropolitana e Litoral,2024,904087410,298421,25846
+4125555,São Manoel do Paraná,22,Cianorte,Noroeste,2024,429624175,341651,13518
+4125605,São Mateus do Sul,03,União da Vitória,Centro Sul,2024,974833440,472178,104635
+4125704,São Miguel do Iguaçu,17,Cascavel,Oeste,2024,1780837843,782303,122747
+4125753,São Pedro do Iguaçu,18,Toledo,Oeste,2024,491270718,217007,35919
+4125803,São Pedro do Ivaí,06,Ivaiporã,Norte,2024,218237086,350234,36700
+4125902,São Pedro do Paraná,10,Paranavaí,Noroeste,2024,129407530,191626,20189
+4126009,São Sebastião da Amoreira,13,Cornélio Procópio,Norte,2024,204994752,212164,38281
+4126108,São Tomé,22,Cianorte,Noroeste,2024,258009596,652150,20011
+4126207,Sapopema,13,Cornélio Procópio,Norte,2024,191864056,107847,63224
+4126256,Sarandi,11,Maringá,Noroeste,2024,116749016,54249,12682
+4126272,Saudade do Iguaçu,15,Pato Branco,Sudoeste,2024,295401532,289396,17160
+4126306,Sengés,04,Ponta Grossa,Centro Sul,2024,502548283,212517,138865
+4126355,Serranópolis do Iguaçu,17,Cascavel,Oeste,2024,662328574,218974,56538
+4126405,Sertaneja,13,Cornélio Procópio,Norte,2024,260344128,204712,64546
+4126504,Sertanópolis,12,Londrina,Norte,2024,462263857,276043,70856
+4126603,Siqueira Campos,14,Santo Antonio da Platina,Norte,2024,465776058,168047,26710
+4126652,Sulina,15,Pato Branco,Sudoeste,2024,441644974,403585,29431
+4126678,Tamarana,12,Londrina,Norte,2024,419093308,227778,48137
+4126702,Tamboara,10,Paranavaí,Noroeste,2024,173807718,393257,16134
+4126801,Tapejara,22,Cianorte,Noroeste,2024,382316495,1135153,56102
+4126900,Tapira,09,Umuarama,Noroeste,2024,268648726,390702,45500
+4127007,Teixeira Soares,07,Irati,Centro Sul,2024,918945034,499341,116098
+4127106,Telêmaco Borba,04,Ponta Grossa,Centro Sul,2024,511467423,113191,129789
+4127205,Terra Boa,19,Campo Mourão,Oeste,2024,587716683,605770,39157
+4127304,Terra Rica,10,Paranavaí,Noroeste,2024,425941139,846465,51375
+4127403,Terra Roxa,18,Toledo,Oeste,2024,748450238,348381,133602
+4127502,Tibagi,04,Ponta Grossa,Centro Sul,2024,1629313848,951648,325444
+4127601,Tijucas do Sul,02,Curitiba,Metropolitana e Litoral,2024,224147474,70785,60224
+4127700,Toledo,18,Toledo,Oeste,2024,4720354755,1812418,157756
+4127809,Tomazina,14,Santo Antonio da Platina,Norte,2024,572621644,275737,56260
+4127858,Três Barras do Paraná,17,Cascavel,Oeste,2024,799161367,369362,67406
+4127882,Tunas do Paraná,02,Curitiba,Metropolitana e Litoral,2024,130526209,31320,21500
+4127908,Tuneiras do Oeste,22,Cianorte,Noroeste,2024,484638277,718913,76764
+4127957,Tupãssi,18,Toledo,Oeste,2024,746393763,347766,51625
+4127965,Turvo,05,Guarapuava,Centro,2024,465530167,255961,56712
+4128005,Ubiratã,19,Campo Mourão,Oeste,2024,1283209045,628181,114529
+4128104,Umuarama,09,Umuarama,Noroeste,2024,1002268068,776111,102814
+4128203,União da Vitória,03,União da Vitória,Centro Sul,2024,287187662,121659,35490
+4128302,Uniflor,11,Maringá,Noroeste,2024,147820415,183638,11469
+4128401,Uraí,13,Cornélio Procópio,Norte,2024,216128451,109737,31090
+4128500,Wenceslau Braz,14,Santo Antonio da Platina,Norte,2024,352129158,183058,44944
+4128534,Ventania,04,Ponta Grossa,Centro Sul,2024,447738824,221462,92599
+4128559,Vera Cruz do Oeste,17,Cascavel,Oeste,2024,549493835,321036,54394
+4128609,Verê,16,Francisco Beltrão,Sudoeste,2024,792799507,364062,47852
+4128625,Alto Paraíso,09,Umuarama,Noroeste,2024,439925206,181942,94118
+4128633,Doutor Ulysses,02,Curitiba,Metropolitana e Litoral,2024,298239027,108948,26119
+4128658,Virmond,21,Laranjeiras do Sul,Centro,2024,184568335,101084,27756
+4128708,Vitorino,15,Pato Branco,Sudoeste,2024,461693236,274785,60091
+4128807,Xambrê,09,Umuarama,Noroeste,2024,178310800,114430,36652

@@ -1,0 +1,219 @@
+{
+  "observatorio": "Observatório Rural Paranaense",
+  "descricao": "Catálogo de dados abertos do Observatório Rural Paranaense. Cada dataset segue o contrato em docs/DADOS-ABERTOS.md (CSV+JSON+dicionário) e usa a chave geográfica canônica regional_idr.",
+  "versao": "1.0",
+  "licenca_padrao": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/deed.pt-br",
+    "obs": "a confirmar com a fonte governamental"
+  },
+  "chave_geografica": {
+    "chave": "regional_idr",
+    "de_para": "/assets/data/geo/municipios_ref_idr.csv",
+    "niveis": [
+      "estado",
+      "mesorregiao",
+      "regional_idr",
+      "municipio"
+    ]
+  },
+  "status_legenda": {
+    "publicado": "dataset padronizado e disponível (csv+json+dicionário)",
+    "em_padronizacao": "dicionário e metadados prontos; extrato de dados em padronização"
+  },
+  "datasets": [
+    {
+      "id": "vbp-parana",
+      "titulo": "Valor Bruto da Produção (VBP) do Paraná",
+      "eixo": "desempenho-economico",
+      "descricao": "Valor Bruto da Produção (VBP) agropecuário do Paraná agregado por município e ano (2012–2024), em reais correntes, com produção (t) e área (ha). Extrato padronizado a partir da tabela real mapData de dashboard/public/data/detailed.json do painel avnergomes/vbp-parana, com a chave canônica regional_idr (código creg_idr 01–23) anexada por JOIN por cod_ibge com o de-para geo/municipios_ref_idr.csv. Indicador-âncora do desempenho econômico do agro e da partilha do ICMS estadual.",
+      "fonte": "DERAL/SEAB · IDR-Paraná — Valor Bruto da Produção Agropecuária",
+      "orgao": "IDR-Paraná / SEAB (Departamento de Economia Rural - DERAL)",
+      "periodicidade": "anual",
+      "cobertura_temporal": {
+        "inicio": "2012",
+        "fim": "2024"
+      },
+      "cobertura_geografica": {
+        "nivel": "municipio/regional_idr",
+        "chave": "regional_idr"
+      },
+      "formatos": [
+        "csv",
+        "json"
+      ],
+      "arquivos": [
+        {
+          "formato": "csv",
+          "url": "/assets/data/desempenho-economico/vbp.csv",
+          "bytes": 387118,
+          "sha256": "d46ba8a3df51dcde7f0dd0612ef861de1e517fd0eb889b215cdacbbadf49aa45"
+        },
+        {
+          "formato": "json",
+          "url": "/assets/data/desempenho-economico/vbp.json",
+          "bytes": 1092460,
+          "sha256": "a9d60aae2ac8b5c13b3bf8978b38a3bf11ad6ec31ef9f07c60844f98193886ba"
+        }
+      ],
+      "licenca": {
+        "id": "CC-BY-4.0",
+        "nome": "Creative Commons Atribuição 4.0 Internacional",
+        "url": "https://creativecommons.org/licenses/by/4.0/deed.pt-br",
+        "obs": "a confirmar"
+      },
+      "dicionario": "/assets/data/desempenho-economico/DICIONARIO.md",
+      "n_colunas": 9,
+      "painel": {
+        "repo": "avnergomes/vbp-parana",
+        "url": "https://avnergomes.github.io/vbp-parana/"
+      },
+      "status": "publicado",
+      "notas": "Extrato REAL (não sintético): 5.187 linhas = 399 municípios × 2012–2024, granularidade (cod_ibge, ano). Fonte completa: https://raw.githubusercontent.com/avnergomes/vbp-parana/main/dashboard/public/data/detailed.json (chave mapData). Origem bruta: planilhas Excel anuais data/VBP2012.xlsx…vbp2024.xlsx do repo avnergomes/vbp-parana, processadas por scripts/preprocess_data.py (Python/pandas). regional_idr canônico anexado por JOIN por cod_ibge com assets/data/geo/municipios_ref_idr.csv (todos os 399 municípios casaram; 0 não identificados; 22 códigos presentes pois 08 não existe — lacuna esperada, docs/GEO.md). No painel de origem, regional_idr é o NOME do núcleo; aqui esse nome foi preservado em reg_idr_nome e o CÓDIGO canônico passou a ocupar regional_idr. vbp_reais em R$ correntes (não deflacionar dentro do dataset). producao_ton soma apenas itens de unidade mássica (regra de conversão de unidades do pipeline de origem). area_ha: unidade 'ha' inferida. Granularidade adicional disponível na origem mas não publicada aqui: byAnoProdutoMunicipio (~439 mil linhas, VBP por ano×produto×município) e cortes por cadeia/subcadeia/regional em detailed.json/aggregated.json. Dataset 100% agregado — sem CPF/CNPJ (LGPD ok). Reproduzir com: python _build_extract.py. Versão 1.0, ultima_atualizacao 2026-05-29. NÃO commitado/publicado (apenas escrito em disco)."
+    },
+    {
+      "id": "precos-diarios",
+      "titulo": "Preços diários (SIMA) e séries de preços",
+      "eixo": "mercado-precos",
+      "descricao": "Cotações diárias de preços agropecuários do Paraná coletadas pelo SIMA/SEAB, com série histórica (2001–2026) por produto e por núcleo regional, agregados estaduais, séries mensais, comparação inter-regional, dispersão (spread), volatilidade e previsões de curto prazo por machine learning. Cobre ~22 produtos monitorados. Painel React com API Flask (Render) para consulta programática.",
+      "fonte": "SIMA/SEAB — Sistema de Informação de Mercado Agrícola (cotações diárias, celepar7.pr.gov.br)",
+      "orgao": "SEAB · IDR-Paraná (Secretaria da Agricultura e do Abastecimento do Paraná)",
+      "periodicidade": "diaria",
+      "cobertura_temporal": {
+        "inicio": "2001",
+        "fim": "2026"
+      },
+      "cobertura_geografica": {
+        "nivel": "municipio/regional_idr",
+        "chave": "regional_idr"
+      },
+      "formatos": [
+        "csv",
+        "json"
+      ],
+      "arquivos": [],
+      "licenca": {
+        "id": "CC-BY-4.0",
+        "nome": "Creative Commons Atribuição 4.0 Internacional",
+        "url": "https://creativecommons.org/licenses/by/4.0/deed.pt-br",
+        "obs": "a confirmar"
+      },
+      "dicionario": "/assets/data/mercado-precos/DICIONARIO.md",
+      "n_colunas": 15,
+      "painel": {
+        "repo": "avnergomes/precos-diarios",
+        "url": "https://avnergomes.github.io/precos-diarios/"
+      },
+      "status": "em_padronizacao",
+      "notas": "DICIONARIO escrito em assets/data/mercado-precos/DICIONARIO.md baseado em colunas REAIS do repo avnergomes/precos-diarios (CSV consolidated_regional.csv: data,ano,mes,dia,produto,unidade,categoria,regional,preco,arquivo; espelhos JSON com chaves abreviadas d/a/m/p/c/r/u/v e pm). CHAVE GEOGRÁFICA: o ETL (api/etl_regional.py) padroniza as praças SIMA para os 23 NÚCLEOS REGIONAIS DO IDR por NOME (campo regional = reg_idr); a coluna canônica regional_idr (código creg_idr 01–23, sem 08) NÃO existe no dado-fonte e deve ser DERIVADA na ingestão via join por reg_idr no de-para geo/municipios_ref_idr.csv — nunca casar por nome em runtime. Não há cod_ibge (sem grão municipal). Rótulo histórico extra 'Jacarezinho' nos JSONs mapeia ao núcleo Santo Antônio da Platina (não é 24º núcleo). RESSALVAS: preços em reais CORRENTES (deflacionar fora do dataset); preço por unidade heterogênea (sc/arroba/kg/kg renda) — não comparar produtos sem normalizar; CSV-fonte traz BOM UTF-8, regerar sem BOM ao publicar (P2 DADOS-ABERTOS); previsões ML (forecasts/, forecast_products.json com modelos linear/arima/auto_arima/random_forest/xgboost) NÃO são dados observados do SIMA — rotular como previsão e separar da série oficial; cobertura README (2003–2026) diverge dos arquivos (2001–2026) — adotar 2001–2026. LGPD ok (agregados de mercado, sem pessoa). LICENÇA: código do repo sob MIT; licença dos dados = CC BY 4.0 (a confirmar) com atribuição a SIMA/SEAB. DATASETS IRMÃOS (mesmo eixo mercado-precos, fonte SEAB/IDR): (1) precos-florestais (avnergomes/precos-florestais, https://avnergomes.github.io/precos-florestais/) — produtos florestais, período 1997–2025, 10 categorias / 96 produtos / 22 regiões, fonte SEAB/IDR-Paraná, brutos XLS/XLSX anuais, inclui previsões e mapa regional; (2) precos-de-terras (avnergomes/precos-de-terras, https://avnergomes.github.io/precos-de-terras/) — preços de terras rurais por região e categoria de terra, período 1998–2025, fonte SIPT/SEAB, origem em PDF extraído via extract_pdfs.py/parse_pdfs.py, app de busca Flask, mapa coroplético municipal. Ambos com granularidade regional (~22 regiões) → derivar regional_idr; catalogar separadamente com seus próprios dicionários."
+    },
+    {
+      "id": "comexstat-parana",
+      "titulo": "Comércio exterior do agronegócio paranaense",
+      "eixo": "comercio-exterior",
+      "descricao": "Exportações e importações FOB do agronegócio paranaense (capítulos NCM/SH 01–24 + cap. 31 fertilizantes + posição 3808 defensivos), por ano/mês, país parceiro, produto (SH4), cadeia produtiva e município exportador, com balança comercial (saldo/corrente), rankings e projeção de curto prazo. Período 2020–2025.",
+      "fonte": "ComexStat/MDIC — SECEX (Estatísticas de Comércio Exterior, recorte agro UF=PR)",
+      "orgao": "IDR-Paraná / SEAB (publicação); MDIC/SECEX (origem do dado)",
+      "periodicidade": "eventual",
+      "cobertura_temporal": {
+        "inicio": "2020",
+        "fim": "2025"
+      },
+      "cobertura_geografica": {
+        "nivel": "municipio/regional_idr",
+        "chave": "regional_idr"
+      },
+      "formatos": [
+        "csv",
+        "json"
+      ],
+      "arquivos": [],
+      "licenca": {
+        "id": "CC-BY-4.0",
+        "nome": "Creative Commons Atribuição 4.0 Internacional",
+        "url": "https://creativecommons.org/licenses/by/4.0/deed.pt-br",
+        "obs": "a confirmar"
+      },
+      "dicionario": "/assets/data/comercio-exterior/DICIONARIO.md",
+      "n_colunas": 19,
+      "painel": {
+        "repo": "avnergomes/comexstat-parana",
+        "url": "https://avnergomes.github.io/comexstat-parana/"
+      },
+      "status": "em_padronizacao",
+      "notas": "Valores FOB em US$ correntes (não convertidos para R$ nem deflacionados); peso em kg líquido. regional_idr não vem do MDIC: é derivada no ETL por join de cod_ibge (= coluna CO_MUN, código IBGE 7 dígitos) com assets/data/geo/municipios_ref_idr.csv. Apenas municipios_data.json tem granularidade municipal (→ regional_idr); demais arquivos são estaduais (PR) ou por país/produto/cadeia. Recorte agro inclui insumos (cadeias tipo=insumo: fertilizantes/defensivos). Código do repo é MIT; dados são do ComexStat/MDIC (público) — licença de publicação do portal CC BY 4.0 a confirmar, preservando atribuição ao MDIC/SECEX. Ressalva de qualidade real: rótulos de país no sankey_data.json com falha de encoding UTF-8 (ex.: Índia) — juntar por código, nunca por nome. forecasts.json contém projeção metodológica do painel (não é dado oficial do MDIC). Os arquivos publicados hoje no painel-fonte são JSON agregados; o CSV/JSON canônico do portal (formato aberto) deve ser derivado deles no ETL conforme docs/DADOS-ABERTOS.md §2."
+    },
+    {
+      "id": "credito-rural-parana",
+      "titulo": "Crédito rural e políticas públicas",
+      "eixo": "credito-politicas",
+      "descricao": "Crédito rural contratado no Paraná a partir do SICOR/BCB (2013–2026): volume de contratos, valor contratado, área financiada, distribuição por finalidade (custeio, investimento, comercialização), programa (PRONAF, PRONAMP, DEMAIS), produto agropecuário, gênero do(a) tomador(a) e município. Inclui projeções de modelos (XGBoost/LightGBM/RandomForest) e de-para de produtos para a classificação VBP/DERAL. Total indexado: R$ 444 bi em 2.705.407 contratos nos 399 municípios.",
+      "fonte": "Banco Central do Brasil — SICOR (Sistema de Operações do Crédito Rural e do Proagro), API OData pública, filtro nomeUF eq 'PR'",
+      "orgao": "Banco Central do Brasil (BCB)",
+      "periodicidade": "eventual",
+      "cobertura_temporal": {
+        "inicio": "2013",
+        "fim": "2026"
+      },
+      "cobertura_geografica": {
+        "nivel": "municipio/regional_idr",
+        "chave": "regional_idr"
+      },
+      "formatos": [
+        "json",
+        "csv"
+      ],
+      "arquivos": [],
+      "licenca": {
+        "id": "CC-BY-4.0",
+        "nome": "Creative Commons Atribuição 4.0 Internacional",
+        "url": "https://creativecommons.org/licenses/by/4.0/deed.pt-br",
+        "obs": "a confirmar"
+      },
+      "dicionario": "/assets/data/credito-politicas/DICIONARIO.md",
+      "n_colunas": 20,
+      "painel": {
+        "repo": "avnergomes/credito-rural-parana",
+        "url": "https://avnergomes.github.io/credito-rural-parana/"
+      },
+      "status": "em_padronizacao",
+      "notas": "Fonte real: BCB/SICOR via API OData (scripts/fetch_data.py com $filter=nomeUF eq 'PR'); transformação em scripts/preprocess_data.py; previsões em scripts/generate_forecasts.py; atualização via GitHub Actions (.github/workflows/data-pipeline.yml). O painel publica JSON pré-agregado, não CSV plano — o ETL do Observatório deve achatar cada coleção em CSV canônico (UTF-8, sem BOM, separador vírgula, decimal ponto). Chave geográfica: os dados carregam codIbge (municipal, 399 municípios); regional_idr NÃO está na origem e deve ser DERIVADA no ETL por join com assets/data/geo/municipios_ref_idr.csv (codIbge -> cod_ibge -> creg_idr) — apenas para a coleção municipal (byMunicipio). As coleções RegiaoUF* usam a região administrativa do BCB, que NÃO equivale à regional do IDR; não forçar mapeamento para regional_idr nesses recortes. Valores em reais correntes (não deflacionados). Previsões são estimativas de modelo, não dado oficial. LGPD: dataset já chega agregado (sem CPF/CNPJ/nome/coordenada); campo genero é agregado. Aplicar supressão de célula em recortes de baixa contagem. A base interna LC-CD (Compra Direta & Leite das Crianças, status interno em eixos.json) só entra no portal como AGREGADO por município/regional_idr/ano/programa — jamais CPF/CNPJ ou microdado individual."
+    },
+    {
+      "id": "rede-ater",
+      "titulo": "Assistência Técnica e Extensão Rural (ATER)",
+      "eixo": "ater",
+      "descricao": "Entidades prestadoras de Assistência Técnica e Extensão Rural (ATER) do Paraná que aderem à Rede Paranaense de ATER, em recorte AGREGADO (1 linha por entidade). Inclui razão social, nome fantasia, tipo de entidade, município/UF da sede e totais declarados de área de atuação, equipe técnica, veículos, imóveis e equipamentos (informática, rede, extensionista). Derivado do agregado público (doGet/lerAgregadoPublico) do painel primário; nenhum dado pessoal (CPF, e-mail, telefone, endereço completo) é publicado — CNPJ apenas mascarado. Chave geográfica regional_idr derivada no ETL a partir do município da sede via geo/municipios_ref_idr.csv.",
+      "fonte": "IDR-Paraná — Rede Paranaense de ATER (autocadastro de entidades prestadoras de ATER)",
+      "orgao": "IDR-Paraná / SEAB",
+      "periodicidade": "eventual",
+      "cobertura_temporal": {
+        "inicio": "2024",
+        "fim": "2024"
+      },
+      "cobertura_geografica": {
+        "nivel": "municipio/regional_idr",
+        "chave": "regional_idr"
+      },
+      "formatos": [
+        "csv",
+        "json"
+      ],
+      "arquivos": [],
+      "licenca": {
+        "id": "CC-BY-4.0",
+        "nome": "Creative Commons Atribuição 4.0 Internacional",
+        "url": "https://creativecommons.org/licenses/by/4.0/deed.pt-br",
+        "obs": "a confirmar"
+      },
+      "dicionario": "/assets/data/ater/DICIONARIO.md",
+      "n_colunas": 19,
+      "painel": {
+        "repo": "rededeaterparana/rededeaterparana.github.io",
+        "url": "https://rededeaterparana.github.io/"
+      },
+      "status": "em_padronizacao",
+      "notas": "Dado autodeclaratório e em construção (base cresce continuamente). 'municipio' refere-se à SEDE da entidade, não à área de atuação. Campos cod_ibge/regional_idr/reg_idr/meso_idr são DERIVADOS no ETL (marcados (inferido) no dicionário) pois a origem não traz cod_ibge da sede — derivar por normalização de nome+UF contra o de-para canônico; registrar não-resolvidos. A aba area_atuacao da origem possui codigo_ibge por município atendido (material para agregar entidades atuantes por regional_idr), mas hoje o doGet só expõe a contagem por entidade — recorte regional de atuação requer estender o agregado público (evolução futura). LGPD §6: publicar só agregados, suprimir células com poucas entidades por regional_idr e registrar a supressão. Painel irmão no mesmo eixo: Relatórios Técnicos de Vistoria (RTV) — avnergomes/rtv (Streamlit; futuro dataset ater/rtv). Licença a confirmar (não declarada no repo de origem); aplicar padrão CC BY 4.0 do portal mediante convênio."
+    }
+  ]
+}
