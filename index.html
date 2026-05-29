@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Observatório Rural Paranaense — inteligência de dados do agro e do desenvolvimento rural do PR</title>
+  <meta name="description" content="Hub público de inteligência de dados da agropecuária e do desenvolvimento rural do Paraná. Painéis dinâmicos por eixo temático, dados abertos com download e dicionário, sob a marca do Sistema SEAGRI-PR (SEAB · IDR-Paraná · CEASA-PR · ADAPAR)." />
+  <meta name="theme-color" content="#008854" />
+  <meta name="author" content="Sistema SEAGRI-PR — IDR-Paraná / SEAB" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="Observatório Rural Paranaense" />
+  <meta property="og:title" content="Observatório Rural Paranaense" />
+  <meta property="og:description" content="Inteligência de dados da agropecuária e do desenvolvimento rural do Paraná — painéis por eixo temático e dados abertos (download + dicionário)." />
+  <meta property="og:url" content="https://observatorio-rural-parana.github.io/" />
+  <meta property="og:image" content="https://observatorio-rural-parana.github.io/assets/logos/idr-horizontal.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Observatório Rural Paranaense" />
+  <meta name="twitter:description" content="Inteligência de dados da agropecuária e do desenvolvimento rural do Paraná — painéis por eixo temático e dados abertos." />
+
+  <link rel="canonical" href="https://observatorio-rural-parana.github.io/" />
+  <link rel="stylesheet" href="assets/css/tokens.css" />
+  <link rel="stylesheet" href="assets/css/hub.css" />
+  <script defer src="assets/js/eixos.js"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "GovernmentOrganization",
+        "@id": "https://observatorio-rural-parana.github.io/#org",
+        "name": "Observatório Rural Paranaense",
+        "alternateName": "Sistema SEAGRI-PR",
+        "url": "https://observatorio-rural-parana.github.io/",
+        "logo": "https://observatorio-rural-parana.github.io/assets/logos/idr-horizontal.png",
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "Paraná, Brasil"
+        },
+        "description": "Hub público de inteligência de dados da agropecuária e do desenvolvimento rural do Paraná, mantido pelo Sistema SEAGRI-PR (SEAB, IDR-Paraná, CEASA-PR e ADAPAR).",
+        "memberOf": [
+          { "@type": "GovernmentOrganization", "name": "Secretaria de Estado da Agricultura e do Abastecimento (SEAB)" },
+          { "@type": "GovernmentOrganization", "name": "Instituto de Desenvolvimento Rural do Paraná — IDR-Paraná" },
+          { "@type": "GovernmentOrganization", "name": "Centrais de Abastecimento do Paraná (CEASA-PR)" },
+          { "@type": "GovernmentOrganization", "name": "Agência de Defesa Agropecuária do Paraná (ADAPAR)" }
+        ]
+      },
+      {
+        "@type": "DataCatalog",
+        "@id": "https://observatorio-rural-parana.github.io/#catalog",
+        "name": "Catálogo de dados abertos do Observatório Rural Paranaense",
+        "description": "Coleção de conjuntos de dados abertos (CSV/XLSX/JSON) com dicionário de dados, organizados por eixo temático e painel.",
+        "url": "https://observatorio-rural-parana.github.io/docs/DADOS-ABERTOS.md",
+        "isAccessibleForFree": true,
+        "inLanguage": "pt-BR",
+        "publisher": { "@id": "https://observatorio-rural-parana.github.io/#org" }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" role="banner">
+    <div class="site-header__bar">
+      <div class="site-header__logos">
+        <img class="site-header__logo" src="assets/logos/idr-horizontal.png" alt="IDR-Paraná — Instituto de Desenvolvimento Rural do Paraná" width="180" height="48" />
+        <img class="site-header__logo" src="assets/logos/gov-seab-horizontal.png" alt="Governo do Paraná — Secretaria de Estado da Agricultura e do Abastecimento (SEAB)" width="200" height="48" />
+      </div>
+      <div class="site-header__brand">
+        <p class="site-header__title">Observatório Rural Paranaense</p>
+        <p class="site-header__tagline">Inteligência de dados do agro e do desenvolvimento rural do Paraná</p>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <!-- (a) Masthead editorial -->
+    <section class="masthead" aria-labelledby="masthead-titulo">
+      <div class="wrap">
+        <p class="masthead__kicker">Portal público · Dados abertos · Sistema SEAGRI-PR</p>
+        <h1 id="masthead-titulo" class="masthead__title">Observatório Rural Paranaense</h1>
+        <p class="masthead__lede">
+          Um hub que reúne o ecossistema de painéis dinâmicos da agropecuária e do
+          desenvolvimento rural do Paraná sob uma única marca institucional. Cada
+          eixo temático abre indicadores construídos a partir de fontes oficiais e,
+          como diferencial, oferece <strong>dados abertos</strong> — com arquivos para
+          download e dicionário de dados — para garantir transparência e
+          reprodutibilidade da informação pública.
+        </p>
+      </div>
+    </section>
+
+    <!-- (b) Eixos temáticos -->
+    <section class="section" aria-labelledby="eixos-titulo">
+      <div class="wrap">
+        <header class="section__head">
+          <h2 id="eixos-titulo" class="section__title">Eixos temáticos</h2>
+          <p class="section__intro">
+            Onze eixos organizam os painéis do observatório. Os eixos marcados como
+            <span class="badge badge--piloto">piloto</span> compõem a primeira fase de
+            publicação. Os painéis abrem em nova aba.
+          </p>
+        </header>
+        <div id="eixos" class="eixos-grid" aria-live="polite" aria-busy="true">
+          <p class="estado-carregando">Carregando eixos temáticos…</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- (c) Camadas contextuais -->
+    <section class="section section--alt" aria-labelledby="contextuais-titulo">
+      <div class="wrap">
+        <header class="section__head">
+          <h2 id="contextuais-titulo" class="section__title">Camadas contextuais</h2>
+          <p class="section__intro">
+            Camadas transversais de apoio (não-agro) que ajudam a ler o território
+            rural a partir de outras dimensões.
+          </p>
+        </header>
+        <div id="contextuais" class="contextuais-grid" aria-live="polite">
+          <p class="estado-carregando">Carregando camadas contextuais…</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- (d) Núcleo de inteligência territorial -->
+    <section class="section" aria-labelledby="nucleo-titulo">
+      <div class="wrap">
+        <header class="section__head">
+          <h2 id="nucleo-titulo" class="section__title">Núcleo de inteligência territorial</h2>
+          <p class="section__intro">
+            Camada de síntese que cruza os eixos em um índice territorial para os
+            399 municípios do Paraná.
+          </p>
+        </header>
+        <div id="nucleo" class="nucleo" aria-live="polite">
+          <p class="estado-carregando">Carregando núcleo de inteligência…</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- (e) Dados abertos -->
+    <section class="section section--dados" aria-labelledby="dados-titulo">
+      <div class="wrap">
+        <div class="dados-abertos">
+          <h2 id="dados-titulo" class="section__title">Dados abertos</h2>
+          <p class="dados-abertos__lede">
+            Transparência e reprodutibilidade são princípios do observatório. Cada
+            painel disponibilizará seus dados em formatos abertos
+            (<strong>CSV, XLSX e JSON</strong>) acompanhados de um
+            <strong>dicionário de dados</strong> que descreve cada variável, unidade e fonte.
+          </p>
+          <p class="dados-abertos__nota">
+            Nota: o catálogo está em construção; à medida que cada painel é
+            padronizado sob a nova organização, o respectivo conjunto de dados
+            (download + dicionário) é publicado.
+          </p>
+          <p class="dados-abertos__acao">
+            <a class="botao" href="docs/DADOS-ABERTOS.md">Conhecer a política de dados abertos</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- (f) Sobre / Sistema SEAGRI-PR -->
+    <section class="section section--alt" aria-labelledby="sobre-titulo">
+      <div class="wrap">
+        <header class="section__head">
+          <h2 id="sobre-titulo" class="section__title">Sobre · Sistema SEAGRI-PR</h2>
+        </header>
+        <div class="sobre">
+          <p>
+            O Observatório Rural Paranaense é um hub público de inteligência de dados
+            mantido no âmbito do <strong>Sistema SEAGRI-PR</strong>, que reúne a
+            <strong>SEAB</strong> (Secretaria de Estado da Agricultura e do
+            Abastecimento), o <strong>IDR-Paraná</strong> (Instituto de
+            Desenvolvimento Rural do Paraná), a <strong>CEASA-PR</strong> (Centrais de
+            Abastecimento do Paraná) e a <strong>ADAPAR</strong> (Agência de Defesa
+            Agropecuária do Paraná).
+          </p>
+          <p>
+            A iniciativa tem como modelo de referência o
+            <strong>Observatório Agro Catarinense</strong> (Cepa/Epagri), adaptando sua
+            abordagem editorial e de dados abertos à realidade institucional e
+            territorial do Paraná.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="site-footer__band" aria-hidden="true"></div>
+    <div class="wrap site-footer__grid">
+      <div class="site-footer__col">
+        <h2 class="site-footer__title">Fontes de dados</h2>
+        <ul class="site-footer__list">
+          <li>IBGE (LSPA, PAM, PPM, Censo Agropecuário e Demográfico)</li>
+          <li>DERAL/SEAB e SIMA · CEASA-PR</li>
+          <li>BCB/SICOR · MDIC/ComexStat · RAIS/CAGED</li>
+          <li>IDR-Paraná (SISATER, Agrometeorologia) · ADAPAR · IPARDES</li>
+          <li>IAT · MapBiomas · CAR/SICAR · SIMEPAR · INMET</li>
+        </ul>
+      </div>
+      <div class="site-footer__col">
+        <h2 class="site-footer__title">Contato institucional</h2>
+        <p class="site-footer__text">
+          Sistema SEAGRI-PR — IDR-Paraná / SEAB<br />
+          Curitiba · Paraná · Brasil<br />
+          <span class="site-footer__placeholder">contato@[a definir].pr.gov.br</span>
+        </p>
+      </div>
+      <div class="site-footer__col">
+        <h2 class="site-footer__title">Créditos</h2>
+        <p class="site-footer__text">
+          Hub editorial de dados abertos, em construção sob a organização
+          <code>observatorio-rural-parana</code>. Taxonomia, painéis e identidade
+          visual definidos no brief do projeto. Modelo de referência: Observatório
+          Agro Catarinense (Cepa/Epagri).
+        </p>
+      </div>
+    </div>
+    <div class="wrap site-footer__base">
+      <p>© <span id="ano">2026</span> Observatório Rural Paranaense · Sistema SEAGRI-PR. Conteúdo público em pt-BR.</p>
+    </div>
+  </footer>
+</body>
+</html>

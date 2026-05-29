@@ -1,0 +1,27 @@
+# Dependências / build
+node_modules/
+dist/
+.cache/
+*.log
+
+# Ambiente / segredos (NUNCA versionar — ver docs/ARQUITETURA.md §Segurança)
+.env
+.env.*
+config.local.js
+*.secret
+
+# Sistema
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Artefatos intermediários de ETL (versionar só o dataset publicado em assets/data/)
+data/raw/
+data/tmp/
+
+# Arquivos de trabalho/insumos — não publicar
+financiamento.png
+prompt.txt

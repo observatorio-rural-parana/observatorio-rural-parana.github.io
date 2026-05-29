@@ -1,0 +1,400 @@
+cod_ibge,municipio,creg_idr,reg_idr,meso_idr
+4100103,Abatiá,13,Cornélio Procópio,Norte
+4100202,Adrianópolis,02,Curitiba,Metropolitana e Litoral
+4100301,Agudos do Sul,02,Curitiba,Metropolitana e Litoral
+4100400,Almirante Tamandaré,02,Curitiba,Metropolitana e Litoral
+4100459,Altamira do Paraná,19,Campo Mourão,Oeste
+4100509,Altônia,09,Umuarama,Noroeste
+4100608,Alto Paraná,10,Paranavaí,Noroeste
+4100707,Alto Piquiri,09,Umuarama,Noroeste
+4100806,Alvorada do Sul,12,Londrina,Norte
+4100905,Amaporã,10,Paranavaí,Noroeste
+4101002,Ampére,16,Francisco Beltrão,Sudoeste
+4101051,Anahy,17,Cascavel,Oeste
+4101101,Andirá,13,Cornélio Procópio,Norte
+4101150,Ângulo,11,Maringá,Noroeste
+4101200,Antonina,01,Paranaguá,Metropolitana e Litoral
+4101309,Antônio Olinto,03,União da Vitória,Centro Sul
+4101408,Apucarana,20,Apucarana,Norte
+4101507,Arapongas,20,Apucarana,Norte
+4101606,Arapoti,04,Ponta Grossa,Centro Sul
+4101655,Arapuã,06,Ivaiporã,Norte
+4101705,Araruna,19,Campo Mourão,Oeste
+4101804,Araucária,02,Curitiba,Metropolitana e Litoral
+4101853,Ariranha do Ivaí,06,Ivaiporã,Norte
+4101903,Assaí,13,Cornélio Procópio,Norte
+4102000,Assis Chateaubriand,18,Toledo,Oeste
+4102109,Astorga,11,Maringá,Noroeste
+4102208,Atalaia,11,Maringá,Noroeste
+4102307,Balsa Nova,02,Curitiba,Metropolitana e Litoral
+4102406,Bandeirantes,13,Cornélio Procópio,Norte
+4102505,Barbosa Ferraz,19,Campo Mourão,Oeste
+4102604,Barracão,16,Francisco Beltrão,Sudoeste
+4102703,Barra do Jacaré,14,Santo Antonio da Platina,Norte
+4102752,Bela Vista da Caroba,16,Francisco Beltrão,Sudoeste
+4102802,Bela Vista do Paraíso,12,Londrina,Norte
+4102901,Bituruna,03,União da Vitória,Centro Sul
+4103008,Boa Esperança,19,Campo Mourão,Oeste
+4103024,Boa Esperança do Iguaçu,23,Dois Vizinhos,Sudoeste
+4103040,Boa Ventura de São Roque,05,Pitanga,Centro
+4103057,Boa Vista da Aparecida,17,Cascavel,Oeste
+4103107,Bocaiúva do Sul,02,Curitiba,Metropolitana e Litoral
+4103156,Bom Jesus do Sul,16,Francisco Beltrão,Sudoeste
+4103206,Bom Sucesso,20,Apucarana,Norte
+4103222,Bom Sucesso do Sul,15,Pato Branco,Sudoeste
+4103305,Borrazópolis,06,Ivaiporã,Norte
+4103354,Braganey,17,Cascavel,Oeste
+4103370,Brasilândia do Sul,09,Umuarama,Noroeste
+4103404,Cafeara,12,Londrina,Norte
+4103453,Cafelândia,17,Cascavel,Oeste
+4103479,Cafezal do Sul,09,Umuarama,Noroeste
+4103503,Califórnia,20,Apucarana,Norte
+4103602,Cambará,14,Santo Antonio da Platina,Norte
+4103701,Cambé,12,Londrina,Norte
+4103800,Cambira,20,Apucarana,Norte
+4103909,Campina da Lagoa,19,Campo Mourão,Oeste
+4103958,Campina do Simão,05,Guarapuava,Centro
+4104006,Campina Grande do Sul,02,Curitiba,Metropolitana e Litoral
+4104055,Campo Bonito,17,Cascavel,Oeste
+4104105,Campo do Tenente,02,Curitiba,Metropolitana e Litoral
+4104204,Campo Largo,02,Curitiba,Metropolitana e Litoral
+4104253,Campo Magro,02,Curitiba,Metropolitana e Litoral
+4104303,Campo Mourão,19,Campo Mourão,Oeste
+4104402,Cândido de Abreu,06,Pitanga,Centro
+4104428,Candói,05,Guarapuava,Centro
+4104451,Cantagalo,05,Guarapuava,Centro
+4104501,Capanema,16,Francisco Beltrão,Sudoeste
+4104600,Capitão Leônidas Marques,17,Cascavel,Oeste
+4104659,Carambeí,04,Ponta Grossa,Centro Sul
+4104709,Carlópolis,14,Santo Antonio da Platina,Norte
+4104808,Cascavel,17,Cascavel,Oeste
+4104907,Castro,04,Ponta Grossa,Centro Sul
+4105003,Catanduvas,17,Cascavel,Oeste
+4105102,Centenário do Sul,12,Londrina,Norte
+4105201,Cerro Azul,02,Curitiba,Metropolitana e Litoral
+4105300,Céu Azul,17,Cascavel,Oeste
+4105409,Chopinzinho,15,Pato Branco,Sudoeste
+4105508,Cianorte,22,Cianorte,Noroeste
+4105607,Cidade Gaúcha,22,Cianorte,Noroeste
+4105706,Clevelândia,15,Pato Branco,Sudoeste
+4105805,Colombo,02,Curitiba,Metropolitana e Litoral
+4105904,Colorado,11,Maringá,Noroeste
+4106001,Congonhinhas,13,Cornélio Procópio,Norte
+4106100,Conselheiro Mairinck,14,Santo Antonio da Platina,Norte
+4106209,Contenda,02,Curitiba,Metropolitana e Litoral
+4106308,Corbélia,17,Cascavel,Oeste
+4106407,Cornélio Procópio,13,Cornélio Procópio,Norte
+4106456,Coronel Domingos Soares,15,Pato Branco,Sudoeste
+4106506,Coronel Vivida,15,Pato Branco,Sudoeste
+4106555,Corumbataí do Sul,19,Campo Mourão,Oeste
+4106571,Cruzeiro do Iguaçu,23,Dois Vizinhos,Sudoeste
+4106605,Cruzeiro do Oeste,09,Umuarama,Noroeste
+4106704,Cruzeiro do Sul,10,Paranavaí,Noroeste
+4106803,Cruz Machado,03,União da Vitória,Centro Sul
+4106852,Cruzmaltina,06,Ivaiporã,Norte
+4106902,Curitiba,02,Curitiba,Metropolitana e Litoral
+4107009,Curiúva,14,Santo Antonio da Platina,Norte
+4107108,Diamante do Norte,10,Paranavaí,Noroeste
+4107124,Diamante do Sul,21,Laranjeiras do Sul,Centro
+4107157,Diamante d'Oeste,17,Cascavel,Oeste
+4107207,Dois Vizinhos,23,Dois Vizinhos,Sudoeste
+4107256,Douradina,09,Umuarama,Noroeste
+4107306,Doutor Camargo,11,Maringá,Noroeste
+4107405,Enéas Marques,16,Francisco Beltrão,Sudoeste
+4107504,Engenheiro Beltrão,19,Campo Mourão,Oeste
+4107520,Esperança Nova,09,Umuarama,Noroeste
+4107538,Entre Rios do Oeste,18,Toledo,Oeste
+4107546,Espigão Alto do Iguaçu,21,Laranjeiras do Sul,Centro
+4107553,Farol,19,Campo Mourão,Oeste
+4107603,Faxinal,06,Ivaiporã,Norte
+4107652,Fazenda Rio Grande,02,Curitiba,Metropolitana e Litoral
+4107702,Fênix,19,Campo Mourão,Oeste
+4107736,Fernandes Pinheiro,07,Irati,Centro Sul
+4107751,Figueira,14,Santo Antonio da Platina,Norte
+4107801,Floraí,11,Maringá,Noroeste
+4107850,Flor da Serra do Sul,16,Francisco Beltrão,Sudoeste
+4107900,Floresta,11,Maringá,Noroeste
+4108007,Florestópolis,12,Londrina,Norte
+4108106,Flórida,11,Maringá,Noroeste
+4108205,Formosa do Oeste,18,Toledo,Oeste
+4108304,Foz do Iguaçu,17,Cascavel,Oeste
+4108320,Francisco Alves,09,Umuarama,Noroeste
+4108403,Francisco Beltrão,16,Francisco Beltrão,Sudoeste
+4108452,Foz do Jordão,05,Guarapuava,Centro
+4108502,General Carneiro,03,União da Vitória,Centro Sul
+4108551,Godoy Moreira,06,Ivaiporã,Norte
+4108601,Goioerê,19,Campo Mourão,Oeste
+4108650,Goioxim,05,Guarapuava,Centro
+4108700,Grandes Rios,06,Ivaiporã,Norte
+4108809,Guaíra,18,Toledo,Oeste
+4108908,Guairaçá,10,Paranavaí,Noroeste
+4108957,Guamiranga,07,Irati,Centro Sul
+4109005,Guapirama,14,Santo Antonio da Platina,Norte
+4109104,Guaporema,22,Cianorte,Noroeste
+4109203,Guaraci,12,Londrina,Norte
+4109302,Guaraniaçu,21,Laranjeiras do Sul,Centro
+4109401,Guarapuava,05,Guarapuava,Centro
+4109500,Guaraqueçaba,01,Paranaguá,Metropolitana e Litoral
+4109609,Guaratuba,01,Paranaguá,Metropolitana e Litoral
+4109658,Honório Serpa,15,Pato Branco,Sudoeste
+4109708,Ibaiti,14,Santo Antonio da Platina,Norte
+4109757,Ibema,17,Cascavel,Oeste
+4109807,Ibiporã,12,Londrina,Norte
+4109906,Icaraíma,09,Umuarama,Noroeste
+4110003,Iguaraçu,11,Maringá,Noroeste
+4110052,Iguatu,17,Cascavel,Oeste
+4110078,Imbaú,04,Ponta Grossa,Centro Sul
+4110102,Imbituva,07,Irati,Centro Sul
+4110201,Inácio Martins,07,Irati,Centro Sul
+4110300,Inajá,10,Paranavaí,Noroeste
+4110409,Indianópolis,22,Cianorte,Noroeste
+4110508,Ipiranga,04,Ponta Grossa,Centro Sul
+4110607,Iporã,09,Umuarama,Noroeste
+4110656,Iracema do Oeste,18,Toledo,Oeste
+4110706,Irati,07,Irati,Centro Sul
+4110805,Iretama,19,Campo Mourão,Oeste
+4110904,Itaguajé,11,Maringá,Noroeste
+4110953,Itaipulândia,17,Cascavel,Oeste
+4111001,Itambaracá,13,Cornélio Procópio,Norte
+4111100,Itambé,11,Maringá,Noroeste
+4111209,Itapejara d'Oeste,15,Pato Branco,Sudoeste
+4111258,Itaperuçu,02,Curitiba,Metropolitana e Litoral
+4111308,Itaúna do Sul,10,Paranavaí,Noroeste
+4111407,Ivaí,04,Ponta Grossa,Centro Sul
+4111506,Ivaiporã,06,Ivaiporã,Norte
+4111555,Ivaté,09,Umuarama,Noroeste
+4111605,Ivatuba,11,Maringá,Noroeste
+4111704,Jaboti,14,Santo Antonio da Platina,Norte
+4111803,Jacarezinho,14,Santo Antonio da Platina,Norte
+4111902,Jaguapitã,12,Londrina,Norte
+4112009,Jaguariaíva,04,Ponta Grossa,Centro Sul
+4112108,Jandaia do Sul,20,Apucarana,Norte
+4112207,Janiópolis,19,Campo Mourão,Oeste
+4112306,Japira,14,Santo Antonio da Platina,Norte
+4112405,Japurá,22,Cianorte,Noroeste
+4112504,Jardim Alegre,06,Ivaiporã,Norte
+4112603,Jardim Olinda,10,Paranavaí,Noroeste
+4112702,Jataizinho,13,Cornélio Procópio,Norte
+4112751,Jesuítas,18,Toledo,Oeste
+4112801,Joaquim Távora,14,Santo Antonio da Platina,Norte
+4112900,Jundiaí do Sul,14,Santo Antonio da Platina,Norte
+4112959,Juranda,19,Campo Mourão,Oeste
+4113007,Jussara,22,Cianorte,Noroeste
+4113106,Kaloré,20,Apucarana,Norte
+4113205,Lapa,02,Curitiba,Metropolitana e Litoral
+4113254,Laranjal,05,Pitanga,Centro
+4113304,Laranjeiras do Sul,21,Laranjeiras do Sul,Centro
+4113403,Leópolis,13,Cornélio Procópio,Norte
+4113429,Lidianópolis,06,Ivaiporã,Norte
+4113452,Lindoeste,17,Cascavel,Oeste
+4113502,Loanda,10,Paranavaí,Noroeste
+4113601,Lobato,11,Maringá,Noroeste
+4113700,Londrina,12,Londrina,Norte
+4113734,Luiziana,19,Campo Mourão,Oeste
+4113759,Lunardelli,06,Ivaiporã,Norte
+4113809,Lupionópolis,12,Londrina,Norte
+4113908,Mallet,07,Irati,Centro Sul
+4114005,Mamborê,19,Campo Mourão,Oeste
+4114104,Mandaguaçu,11,Maringá,Noroeste
+4114203,Mandaguari,11,Maringá,Noroeste
+4114302,Mandirituba,02,Curitiba,Metropolitana e Litoral
+4114351,Manfrinópolis,16,Francisco Beltrão,Sudoeste
+4114401,Mangueirinha,15,Pato Branco,Sudoeste
+4114500,Manoel Ribas,06,Pitanga,Centro
+4114609,Marechal Cândido Rondon,18,Toledo,Oeste
+4114708,Maria Helena,09,Umuarama,Noroeste
+4114807,Marialva,11,Maringá,Noroeste
+4114906,Marilândia do Sul,20,Apucarana,Norte
+4115002,Marilena,10,Paranavaí,Noroeste
+4115101,Mariluz,09,Umuarama,Noroeste
+4115200,Maringá,11,Maringá,Noroeste
+4115309,Mariópolis,15,Pato Branco,Sudoeste
+4115358,Maripá,18,Toledo,Oeste
+4115408,Marmeleiro,16,Francisco Beltrão,Sudoeste
+4115457,Marquinho,21,Laranjeiras do Sul,Centro
+4115507,Marumbi,20,Apucarana,Norte
+4115606,Matelândia,17,Cascavel,Oeste
+4115705,Matinhos,01,Paranaguá,Metropolitana e Litoral
+4115739,Mato Rico,05,Pitanga,Centro
+4115754,Mauá da Serra,20,Apucarana,Norte
+4115804,Medianeira,17,Cascavel,Oeste
+4115853,Mercedes,18,Toledo,Oeste
+4115903,Mirador,10,Paranavaí,Noroeste
+4116000,Miraselva,12,Londrina,Norte
+4116059,Missal,17,Cascavel,Oeste
+4116109,Moreira Sales,19,Campo Mourão,Oeste
+4116208,Morretes,01,Paranaguá,Metropolitana e Litoral
+4116307,Munhoz de Melo,11,Maringá,Noroeste
+4116406,Nossa Senhora das Graças,11,Maringá,Noroeste
+4116505,Nova Aliança do Ivaí,10,Paranavaí,Noroeste
+4116604,Nova América da Colina,13,Cornélio Procópio,Norte
+4116703,Nova Aurora,17,Cascavel,Oeste
+4116802,Nova Cantú,19,Campo Mourão,Oeste
+4116901,Nova Esperança,11,Maringá,Noroeste
+4116950,Nova Esperança do Sudoeste,23,Dois Vizinhos,Sudoeste
+4117008,Nova Fátima,13,Cornélio Procópio,Norte
+4117057,Nova Laranjeiras,21,Laranjeiras do Sul,Centro
+4117107,Nova Londrina,10,Paranavaí,Noroeste
+4117206,Nova Olímpia,09,Umuarama,Noroeste
+4117214,Nova Santa Bárbara,13,Cornélio Procópio,Norte
+4117222,Nova Santa Rosa,18,Toledo,Oeste
+4117255,Nova Prata do Iguaçu,23,Dois Vizinhos,Sudoeste
+4117271,Nova Tebas,06,Pitanga,Centro
+4117297,Novo Itacolomi,20,Apucarana,Norte
+4117305,Ortigueira,04,Ponta Grossa,Centro Sul
+4117404,Ourizona,11,Maringá,Noroeste
+4117453,Ouro Verde do Oeste,18,Toledo,Oeste
+4117503,Paiçandu,11,Maringá,Noroeste
+4117602,Palmas,15,Pato Branco,Sudoeste
+4117701,Palmeira,04,Ponta Grossa,Centro Sul
+4117800,Palmital,05,Pitanga,Centro
+4117909,Palotina,18,Toledo,Oeste
+4118006,Paraíso do Norte,10,Paranavaí,Noroeste
+4118105,Paranacity,10,Paranavaí,Noroeste
+4118204,Paranaguá,01,Paranaguá,Metropolitana e Litoral
+4118303,Paranapoema,10,Paranavaí,Noroeste
+4118402,Paranavaí,10,Paranavaí,Noroeste
+4118451,Pato Bragado,18,Toledo,Oeste
+4118501,Pato Branco,15,Pato Branco,Sudoeste
+4118600,Paula Freitas,03,União da Vitória,Centro Sul
+4118709,Paulo Frontin,03,União da Vitória,Centro Sul
+4118808,Peabiru,19,Campo Mourão,Oeste
+4118857,Perobal,09,Umuarama,Noroeste
+4118907,Pérola,09,Umuarama,Noroeste
+4119004,Pérola d'Oeste,16,Francisco Beltrão,Sudoeste
+4119103,Piên,02,Curitiba,Metropolitana e Litoral
+4119152,Pinhais,02,Curitiba,Metropolitana e Litoral
+4119202,Pinhalão,14,Santo Antonio da Platina,Norte
+4119251,Pinhal de São Bento,16,Francisco Beltrão,Sudoeste
+4119301,Pinhão,05,Guarapuava,Centro
+4119400,Piraí do Sul,04,Ponta Grossa,Centro Sul
+4119509,Piraquara,02,Curitiba,Metropolitana e Litoral
+4119608,Pitanga,05,Pitanga,Centro
+4119657,Pitangueiras,12,Londrina,Norte
+4119707,Planaltina do Paraná,10,Paranavaí,Noroeste
+4119806,Planalto,16,Francisco Beltrão,Sudoeste
+4119905,Ponta Grossa,04,Ponta Grossa,Centro Sul
+4119954,Pontal do Paraná,01,Paranaguá,Metropolitana e Litoral
+4120002,Porecatu,12,Londrina,Norte
+4120101,Porto Amazonas,02,Curitiba,Metropolitana e Litoral
+4120150,Porto Barreiro,21,Laranjeiras do Sul,Centro
+4120200,Porto Rico,10,Paranavaí,Noroeste
+4120309,Porto Vitória,03,União da Vitória,Centro Sul
+4120333,Prado Ferreira,12,Londrina,Norte
+4120358,Pranchita,16,Francisco Beltrão,Sudoeste
+4120408,Presidente Castelo Branco,11,Maringá,Noroeste
+4120507,Primeiro de Maio,12,Londrina,Norte
+4120606,Prudentópolis,07,Irati,Centro Sul
+4120655,Quarto Centenário,19,Campo Mourão,Oeste
+4120705,Quatiguá,14,Santo Antonio da Platina,Norte
+4120804,Quatro Barras,02,Curitiba,Metropolitana e Litoral
+4120853,Quatro Pontes,18,Toledo,Oeste
+4120903,Quedas do Iguaçu,21,Laranjeiras do Sul,Centro
+4121000,Querência do Norte,10,Paranavaí,Noroeste
+4121109,Quinta do Sol,19,Campo Mourão,Oeste
+4121208,Quitandinha,02,Curitiba,Metropolitana e Litoral
+4121257,Ramilândia,17,Cascavel,Oeste
+4121307,Rancho Alegre,13,Cornélio Procópio,Norte
+4121356,Rancho Alegre D'Oeste,19,Campo Mourão,Oeste
+4121406,Realeza,16,Francisco Beltrão,Sudoeste
+4121505,Rebouças,07,Irati,Centro Sul
+4121604,Renascença,16,Francisco Beltrão,Sudoeste
+4121703,Reserva,04,Ponta Grossa,Centro Sul
+4121752,Reserva do Iguaçu,05,Guarapuava,Centro
+4121802,Ribeirão Claro,14,Santo Antonio da Platina,Norte
+4121901,Ribeirão do Pinhal,13,Cornélio Procópio,Norte
+4122008,Rio Azul,07,Irati,Centro Sul
+4122107,Rio Bom,20,Apucarana,Norte
+4122156,Rio Bonito do Iguaçu,21,Laranjeiras do Sul,Centro
+4122172,Rio Branco do Ivaí,06,Ivaiporã,Norte
+4122206,Rio Branco do Sul,02,Curitiba,Metropolitana e Litoral
+4122305,Rio Negro,02,Curitiba,Metropolitana e Litoral
+4122404,Rolândia,12,Londrina,Norte
+4122503,Roncador,19,Campo Mourão,Oeste
+4122602,Rondon,22,Cianorte,Noroeste
+4122651,Rosário do Ivaí,06,Ivaiporã,Norte
+4122701,Sabáudia,20,Apucarana,Norte
+4122800,Salgado Filho,16,Francisco Beltrão,Sudoeste
+4122909,Salto do Itararé,14,Santo Antonio da Platina,Norte
+4123006,Salto do Lontra,23,Dois Vizinhos,Sudoeste
+4123105,Santa Amélia,13,Cornélio Procópio,Norte
+4123204,Santa Cecília do Pavão,13,Cornélio Procópio,Norte
+4123303,Santa Cruz de Monte Castelo,10,Paranavaí,Noroeste
+4123402,Santa Fé,11,Maringá,Noroeste
+4123501,Santa Helena,18,Toledo,Oeste
+4123600,Santa Inês,11,Maringá,Noroeste
+4123709,Santa Isabel do Ivaí,10,Paranavaí,Noroeste
+4123808,Santa Izabel do Oeste,16,Francisco Beltrão,Sudoeste
+4123824,Santa Lúcia,17,Cascavel,Oeste
+4123857,Santa Maria do Oeste,05,Pitanga,Centro
+4123907,Santa Mariana,13,Cornélio Procópio,Norte
+4123956,Santa Mônica,10,Paranavaí,Noroeste
+4124004,Santana do Itararé,14,Santo Antonio da Platina,Norte
+4124020,Santa Tereza do Oeste,17,Cascavel,Oeste
+4124053,Santa Terezinha de Itaipu,17,Cascavel,Oeste
+4124103,Santo Antônio da Platina,14,Santo Antonio da Platina,Norte
+4124202,Santo Antônio do Caiuá,10,Paranavaí,Noroeste
+4124301,Santo Antônio do Paraíso,13,Cornélio Procópio,Norte
+4124400,Santo Antônio do Sudoeste,16,Francisco Beltrão,Sudoeste
+4124509,Santo Inácio,11,Maringá,Noroeste
+4124608,São Carlos do Ivaí,10,Paranavaí,Noroeste
+4124707,São Jerônimo da Serra,13,Cornélio Procópio,Norte
+4124806,São João,15,Pato Branco,Sudoeste
+4124905,São João do Caiuá,10,Paranavaí,Noroeste
+4125001,São João do Ivaí,06,Ivaiporã,Norte
+4125100,São João do Triunfo,04,Ponta Grossa,Centro Sul
+4125209,São Jorge d'Oeste,23,Dois Vizinhos,Sudoeste
+4125308,São Jorge do Ivaí,11,Maringá,Noroeste
+4125357,São Jorge do Patrocínio,09,Umuarama,Noroeste
+4125407,São José da Boa Vista,14,Santo Antonio da Platina,Norte
+4125456,São José das Palmeiras,18,Toledo,Oeste
+4125506,São José dos Pinhais,02,Curitiba,Metropolitana e Litoral
+4125555,São Manoel do Paraná,22,Cianorte,Noroeste
+4125605,São Mateus do Sul,03,União da Vitória,Centro Sul
+4125704,São Miguel do Iguaçu,17,Cascavel,Oeste
+4125753,São Pedro do Iguaçu,18,Toledo,Oeste
+4125803,São Pedro do Ivaí,06,Ivaiporã,Norte
+4125902,São Pedro do Paraná,10,Paranavaí,Noroeste
+4126009,São Sebastião da Amoreira,13,Cornélio Procópio,Norte
+4126108,São Tomé,22,Cianorte,Noroeste
+4126207,Sapopema,13,Cornélio Procópio,Norte
+4126256,Sarandi,11,Maringá,Noroeste
+4126272,Saudade do Iguaçu,15,Pato Branco,Sudoeste
+4126306,Sengés,04,Ponta Grossa,Centro Sul
+4126355,Serranópolis do Iguaçu,17,Cascavel,Oeste
+4126405,Sertaneja,13,Cornélio Procópio,Norte
+4126504,Sertanópolis,12,Londrina,Norte
+4126603,Siqueira Campos,14,Santo Antonio da Platina,Norte
+4126652,Sulina,15,Pato Branco,Sudoeste
+4126678,Tamarana,12,Londrina,Norte
+4126702,Tamboara,10,Paranavaí,Noroeste
+4126801,Tapejara,22,Cianorte,Noroeste
+4126900,Tapira,09,Umuarama,Noroeste
+4127007,Teixeira Soares,07,Irati,Centro Sul
+4127106,Telêmaco Borba,04,Ponta Grossa,Centro Sul
+4127205,Terra Boa,19,Campo Mourão,Oeste
+4127304,Terra Rica,10,Paranavaí,Noroeste
+4127403,Terra Roxa,18,Toledo,Oeste
+4127502,Tibagi,04,Ponta Grossa,Centro Sul
+4127601,Tijucas do Sul,02,Curitiba,Metropolitana e Litoral
+4127700,Toledo,18,Toledo,Oeste
+4127809,Tomazina,14,Santo Antonio da Platina,Norte
+4127858,Três Barras do Paraná,17,Cascavel,Oeste
+4127882,Tunas do Paraná,02,Curitiba,Metropolitana e Litoral
+4127908,Tuneiras do Oeste,22,Cianorte,Noroeste
+4127957,Tupãssi,18,Toledo,Oeste
+4127965,Turvo,05,Guarapuava,Centro
+4128005,Ubiratã,19,Campo Mourão,Oeste
+4128104,Umuarama,09,Umuarama,Noroeste
+4128203,União da Vitória,03,União da Vitória,Centro Sul
+4128302,Uniflor,11,Maringá,Noroeste
+4128401,Uraí,13,Cornélio Procópio,Norte
+4128500,Wenceslau Braz,14,Santo Antonio da Platina,Norte
+4128534,Ventania,04,Ponta Grossa,Centro Sul
+4128559,Vera Cruz do Oeste,17,Cascavel,Oeste
+4128609,Verê,16,Francisco Beltrão,Sudoeste
+4128625,Alto Paraíso,09,Umuarama,Noroeste
+4128633,Doutor Ulysses,02,Curitiba,Metropolitana e Litoral
+4128658,Virmond,21,Laranjeiras do Sul,Centro
+4128708,Vitorino,15,Pato Branco,Sudoeste
+4128807,Xambrê,09,Umuarama,Noroeste

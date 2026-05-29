@@ -1,0 +1,162 @@
+{
+  "projeto": "Observatório Rural Paranaense",
+  "org": "observatorio-rural-parana",
+  "hub": "observatorio-rural-parana.github.io",
+  "modelo_referencia": "Observatório Agro Catarinense (Cepa/Epagri)",
+  "sistema_fonte": "SEAGRI-PR (SEAB · IDR-Paraná · CEASA-PR · ADAPAR)",
+  "geo": {
+    "chave": "regional_idr",
+    "niveis": ["estado", "mesorregiao", "regional_idr", "municipio"],
+    "regionais": 23,
+    "mesorregioes": 7,
+    "municipios": 399,
+    "backbone": "GeoJSON estático (GitHub Pages + Git LFS) — ver docs/GEO.md"
+  },
+  "status_legenda": {
+    "ativo": "painel já publicado e no ar no ecossistema (URL a confirmar via link-check)",
+    "planejado": "eixo/painel a construir a partir do cookiecutter",
+    "contextual": "camada transversal de apoio (não-agro)",
+    "interno": "uso restrito / LGPD — só agregados no portal público"
+  },
+  "eixos": [
+    {
+      "id": "producao-agropecuaria",
+      "nome": "Produção Agropecuária",
+      "ordem": 1,
+      "piloto": false,
+      "descricao": "Produção vegetal (grãos, fruticultura, olericultura), pecuária (carnes, leite, ovos, mel, rebanhos), florestal (silvicultura/extração) e aquicultura/pesca.",
+      "fontes": ["IBGE LSPA/PAM/PPM/Censo Agropecuário", "DERAL Estimativa de Safra"],
+      "paineis": [
+        { "nome": "Integração ILPF (carne & madeira)", "repo": "avnergomes/carne_madeira", "url": "https://avnergomes.github.io/carne_madeira/", "status": "ativo" },
+        { "nome": "Produção vegetal e pecuária", "repo": null, "url": null, "status": "planejado" }
+      ]
+    },
+    {
+      "id": "desempenho-economico",
+      "nome": "Desempenho Econômico do Agro",
+      "ordem": 2,
+      "piloto": true,
+      "descricao": "Valor Bruto da Produção (VBP), Valor Adicionado Bruto (VAB), PIB do agro, área e produtividade. Indicador-âncora — compõe a partilha do ICMS estadual.",
+      "fontes": ["DERAL/SEAB", "IBGE", "IPARDES"],
+      "paineis": [
+        { "nome": "VBP do Paraná (2012–2024)", "repo": "avnergomes/vbp-parana", "url": "https://avnergomes.github.io/vbp-parana/", "status": "ativo" }
+      ]
+    },
+    {
+      "id": "mercado-precos",
+      "nome": "Mercado e Preços",
+      "ordem": 3,
+      "piloto": true,
+      "descricao": "Preços diários (SIMA), atacado/varejo (CEASA-PR), preços florestais, preços de terras, custos de produção e sazonalidade.",
+      "fontes": ["DERAL/SIMA (celepar7.pr.gov.br)", "CEASA-PR", "DEFLOP", "SIPT"],
+      "paineis": [
+        { "nome": "Preços diários (SIMA)", "repo": "avnergomes/precos-diarios", "url": "https://avnergomes.github.io/precos-diarios/", "status": "ativo", "api": "Flask/Render" },
+        { "nome": "Preços florestais (1997–2025)", "repo": "avnergomes/precos-florestais", "url": "https://avnergomes.github.io/precos-florestais/", "status": "ativo" },
+        { "nome": "Preços de terras (SIPT 1998–2025)", "repo": "avnergomes/precos-de-terras", "url": "https://avnergomes.github.io/precos-de-terras/", "status": "ativo" }
+      ]
+    },
+    {
+      "id": "comercio-exterior",
+      "nome": "Comércio Exterior do Agronegócio",
+      "ordem": 4,
+      "piloto": true,
+      "descricao": "Exportações/importações FOB, balança comercial, cadeias por NCM e municípios exportadores do agro paranaense.",
+      "fontes": ["MDIC/ComexStat (filtro PR)"],
+      "paineis": [
+        { "nome": "ComexStat Paraná (2020–2025)", "repo": "avnergomes/comexstat-parana", "url": "https://avnergomes.github.io/comexstat-parana/", "status": "ativo" }
+      ]
+    },
+    {
+      "id": "credito-politicas",
+      "nome": "Crédito e Políticas Públicas Rurais",
+      "ordem": 5,
+      "piloto": true,
+      "descricao": "Crédito rural (SICOR/Pronaf/PNCF) e programas estaduais: Banco do Agricultor, Seguro Rural, Trator Solidário, Compra Direta, Leite das Crianças, Terra Boa.",
+      "fontes": ["BCB/SICOR", "SEAB/DPA"],
+      "paineis": [
+        { "nome": "Crédito Rural Paraná (SICOR 2013–2026)", "repo": "avnergomes/credito-rural-parana", "url": "https://avnergomes.github.io/credito-rural-parana/", "status": "ativo" },
+        { "nome": "Compra Direta & Leite das Crianças (relatórios)", "repo": null, "url": null, "status": "interno", "obs": "base LC-CD — publicar só agregados (cruza CPF/CNPJ)" }
+      ]
+    },
+    {
+      "id": "ater",
+      "nome": "Assistência Técnica e Extensão Rural (ATER)",
+      "ordem": 6,
+      "piloto": true,
+      "descricao": "Cobertura SISATER, Rede Paranaense de ATER, Relatórios Técnicos de Vistoria (RTV) e programas setoriais do IDR.",
+      "fontes": ["IDR-Paraná (SISATER/GETEC)"],
+      "paineis": [
+        { "nome": "Rede Paranaense de ATER", "repo": "rededeaterparana/rededeaterparana.github.io", "url": "https://rededeaterparana.github.io/", "status": "ativo" },
+        { "nome": "Relatórios Técnicos de Vistoria (RTV)", "repo": "avnergomes/rtv", "url": "https://avnergomes.github.io/rtv/", "status": "ativo" }
+      ]
+    },
+    {
+      "id": "desenvolvimento-rural",
+      "nome": "Desenvolvimento Rural e Socioeconômico",
+      "ordem": 7,
+      "piloto": false,
+      "descricao": "Demografia/censos, IDHM, estrutura fundiária, emprego no agro, dinâmica rural-urbana e agricultura familiar (CAF).",
+      "fontes": ["IBGE (Censos)", "RAIS/CAGED", "IPARDES"],
+      "paineis": [
+        { "nome": "Censo Paraná (1991–2022)", "repo": "avnergomes/censo-parana", "url": "https://avnergomes.github.io/censo-parana/", "status": "ativo" },
+        { "nome": "Emprego no Agro (RAIS/CAGED)", "repo": "avnergomes/emprego-agro-parana", "url": "https://avnergomes.github.io/emprego-agro-parana/", "status": "ativo" }
+      ]
+    },
+    {
+      "id": "recursos-hidricos-ambiental",
+      "nome": "Recursos Hídricos, Ambiental e Geoespacial",
+      "ordem": 8,
+      "piloto": false,
+      "descricao": "Microbacias/ottobacias, água segura, segurança hídrica, CAR, uso do solo, MapBiomas, conservação de solo e água.",
+      "fontes": ["IAT", "Sanepar/Águas-PR", "ANA", "MapBiomas", "CAR/SICAR"],
+      "paineis": [
+        { "nome": "Água Segura", "repo": "avnergomes/aguasegura", "url": "https://avnergomes.github.io/aguasegura/", "status": "ativo" },
+        { "nome": "Programa de Segurança Hídrica (PSH)", "repo": "avnergomes/psh", "url": "https://avnergomes.github.io/psh/", "status": "ativo" },
+        { "nome": "Camadas base PR (altimetria/hidrografia/CAF)", "repo": "avnergomes/prns", "url": "https://avnergomes.github.io/prns/", "status": "ativo" }
+      ]
+    },
+    {
+      "id": "sanidade-defesa",
+      "nome": "Sanidade e Defesa Agropecuária",
+      "ordem": 9,
+      "piloto": false,
+      "descricao": "Trânsito (GTA/PTV), vacinação/rebanho, agrotóxicos (SIAGRO) e ocorrência de pragas georreferenciada.",
+      "fontes": ["ADAPAR (painéis Power BI/Looker; microdados via LAI)"],
+      "paineis": [
+        { "nome": "Painéis ADAPAR (GTA, agrotóxicos, pragas)", "repo": null, "url": null, "status": "planejado", "obs": "integrar/espelhar painéis públicos da ADAPAR" }
+      ]
+    },
+    {
+      "id": "clima-agrometeorologia",
+      "nome": "Clima e Agrometeorologia",
+      "ordem": 10,
+      "piloto": false,
+      "descricao": "Boletins, mapas de desvio, alertas de geada/estiagem/ondas de calor e risco climático.",
+      "fontes": ["IDR-Paraná Agrometeorologia (rede de estações)", "SIMEPAR", "INMET"],
+      "paineis": [
+        { "nome": "Agroclima Paraná", "repo": null, "url": null, "status": "planejado" }
+      ]
+    },
+    {
+      "id": "infraestrutura-energia",
+      "nome": "Infraestrutura e Energia Rural",
+      "ordem": 11,
+      "piloto": false,
+      "descricao": "Armazenagem, biogás/bioenergia, estradas rurais e unidades de processamento.",
+      "fontes": ["SEAB", "ADAPAR", "IBGE/PPM", "CIBIOGÁS"],
+      "paineis": [
+        { "nome": "Panorama do Biogás no Paraná", "repo": null, "url": null, "status": "planejado", "obs": "base cibiogas (local) — portar como painel + publicação" }
+      ]
+    }
+  ],
+  "camadas_contextuais": [
+    { "id": "saude", "nome": "Saúde (contexto rural)", "repo": "avnergomes/saude-parana", "url": "https://avnergomes.github.io/saude-parana/", "status": "contextual", "fontes": ["DATASUS"] },
+    { "id": "seguranca", "nome": "Segurança (contexto rural)", "repo": "avnergomes/seguranca-parana", "url": "https://avnergomes.github.io/seguranca-parana/", "status": "contextual", "fontes": ["SESP", "IPARDES"] }
+  ],
+  "nucleo_inteligencia": {
+    "nome": "Inteligência Territorial (índice IRTC, 399 municípios)",
+    "repo": "avnergomes/c2-parana",
+    "status": "planejado",
+    "obs": "integrar após rotação de secrets, remoção de gating e de dados sintéticos hardcoded — ver docs/ARQUITETURA.md §Segurança"
+  }
+}

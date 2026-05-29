@@ -1,0 +1,107 @@
+/* ============================================================================
+   Observatório Rural Paranaense — Design System (fonte única da verdade)
+   Paleta oficial Governo do Paraná / SEAB / IDR-Paraná (contraste WCAG verificado).
+   Derivado do gerador editorial de publicações (LC-CD). Pendor editorial,
+   web-first. NÃO duplicar cores fora deste arquivo — sempre referenciar var(--…).
+   ========================================================================= */
+
+:root {
+  /* ---- Superfícies / papel ------------------------------------------------ */
+  --paper:   #f4f1ea;   /* fundo da página (creme editorial) */
+  --paper-2: #fbfaf6;   /* fundo de campos/realces sutis */
+  --card:    #ffffff;   /* cartões e painéis */
+
+  /* ---- Tinta (ardósia oficial dos wordmarks) ----------------------------- */
+  --ink:   #1d2529;     /* texto principal */
+  --ink-2: #3e4a52;     /* texto secundário */
+  --muted: #616b73;     /* texto terciário / legendas */
+
+  /* ---- Linhas / bordas ---------------------------------------------------- */
+  --line:  #e2ddd2;     /* divisória suave */
+  --line-2:#cfc9bb;     /* borda de campo / contorno */
+
+  /* ---- Azul institucional Governo do PR ----------------------------------- */
+  --azul:   #0079bb;
+  --azul-d: #005a8c;
+  --azul-l: #e3f0f8;
+
+  /* ---- Verde IDR / agricultura (marca primária do observatório) ----------- */
+  --green:   #008854;
+  --green-d: #0a5e3d;
+  --green-l: #e2f1ea;
+
+  /* ---- Acentos (séries de dados, estados, alertas) ------------------------ */
+  --olive:   #5aa05a;  --olive-l: #e9f1e2;
+  --amber:   #b67514;  --amber-l: #f6ead2;   /* atenção */
+  --clay:    #c0392b;  --clay-l:  #f7e0dc;   /* alerta (AA-safe, deriv. brasão) */
+  --vermelho:#d73a3a;                        /* vermelho oficial do brasão (fills/acento) */
+  --gray:    #8a9299;  --gray-l:  #ebe8e1;
+
+  /* ---- Tokens semânticos -------------------------------------------------- */
+  --brand:        var(--green);
+  --brand-strong: var(--green-d);
+  --bg:           var(--paper);
+  --bg-elevated:  var(--card);
+  --text:         var(--ink);
+  --text-soft:    var(--ink-2);
+  --border:       var(--line);
+  --focus-ring:   color-mix(in srgb, var(--azul) 55%, transparent);
+
+  /* assinatura azul→verde (faixas, hovers, headers) */
+  --sig: linear-gradient(90deg, #0079bb 0%, #0089a0 45%, #008854 100%);
+
+  /* ---- Tipografia --------------------------------------------------------- */
+  --serif: Georgia, 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Times New Roman', serif;
+  --sans:  'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+  --mono:  'Consolas', 'SFMono-Regular', 'Cascadia Code', ui-monospace, monospace;
+
+  /* escala tipográfica fluida */
+  --fs-display: clamp(34px, 5.4vw, 60px);
+  --fs-h1:      clamp(28px, 4vw, 44px);
+  --fs-h2:      clamp(22px, 2.6vw, 30px);
+  --fs-h3:      clamp(18px, 1.8vw, 22px);
+  --fs-lede:    clamp(18px, 2.2vw, 23px);
+  --fs-body:    16px;
+  --fs-sm:      14px;
+  --fs-xs:      12.5px;
+
+  /* ---- Layout / espaçamento / forma -------------------------------------- */
+  --maxw:    1180px;
+  --gutter:  clamp(16px, 4vw, 32px);
+  --space-1: 4px;  --space-2: 8px;  --space-3: 12px; --space-4: 16px;
+  --space-5: 24px; --space-6: 32px; --space-7: 48px; --space-8: 64px;
+  --radius:    12px;
+  --radius-sm: 9px;
+  --radius-lg: 18px;
+
+  /* ---- Sombra / elevação -------------------------------------------------- */
+  --shadow-1: 0 1px 2px rgba(29,37,41,.06), 0 1px 1px rgba(29,37,41,.04);
+  --shadow-2: 0 6px 18px rgba(29,37,41,.08), 0 2px 6px rgba(29,37,41,.05);
+  --shadow-3: 0 16px 40px rgba(29,37,41,.12);
+
+  /* ---- Movimento ---------------------------------------------------------- */
+  --ease:     cubic-bezier(.2,.6,.2,1);
+  --dur-fast: .15s;
+  --dur:      .25s;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* Modo escuro opcional — mantém a marca, inverte superfícies.
+     Habilitar adicionando data-theme="auto" no <html>; por ora documentado. */
+  :root[data-theme="auto"] {
+    --paper:   #14181b;
+    --paper-2: #1b2024;
+    --card:    #1e2429;
+    --ink:     #eef1f0;
+    --ink-2:   #c4ccd0;
+    --muted:   #93a0a6;
+    --line:    #2b3338;
+    --line-2:  #39434a;
+    --green-l: #103a2a;
+    --azul-l:  #0e2a3c;
+  }
+}
+
+@media print {
+  :root { --paper:#ffffff; --paper-2:#ffffff; }
+}

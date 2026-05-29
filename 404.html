@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Página não encontrada (404) — Observatório Rural Paranaense</title>
+  <meta name="description" content="A página solicitada não foi encontrada no Observatório Rural Paranaense. Volte ao início para navegar pelos eixos temáticos e dados abertos." />
+  <meta name="theme-color" content="#008854" />
+  <meta name="robots" content="noindex" />
+  <link rel="stylesheet" href="/assets/css/tokens.css" />
+  <link rel="stylesheet" href="/assets/css/hub.css" />
+  <style>
+    /* Ajustes pontuais da 404 — sem redefinir cores (apenas var(--…)). */
+    .erro-pagina {
+      min-height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding-block: var(--space-8);
+    }
+    .erro-pagina__codigo {
+      font-family: var(--serif);
+      font-size: var(--fs-display);
+      font-weight: 700;
+      line-height: 0.9;
+      color: color-mix(in srgb, var(--brand) 55%, var(--line-2));
+      font-variant-numeric: tabular-nums;
+    }
+    .erro-pagina__titulo {
+      font-family: var(--serif);
+      font-size: var(--fs-h1);
+      color: var(--ink);
+      margin-top: var(--space-3);
+    }
+    .erro-pagina__texto {
+      font-size: var(--fs-lede);
+      color: var(--text-soft);
+      max-width: 56ch;
+      margin: var(--space-4) auto 0;
+    }
+    .erro-pagina__acoes { margin-top: var(--space-6); }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" role="banner">
+    <div class="site-header__bar">
+      <div class="site-header__logos">
+        <img class="site-header__logo" src="/assets/logos/idr-horizontal.png" alt="IDR-Paraná — Instituto de Desenvolvimento Rural do Paraná" width="180" height="48" />
+        <img class="site-header__logo" src="/assets/logos/gov-seab-horizontal.png" alt="Governo do Paraná — Secretaria de Estado da Agricultura e do Abastecimento (SEAB)" width="200" height="48" />
+      </div>
+      <div class="site-header__brand">
+        <p class="site-header__title">Observatório Rural Paranaense</p>
+        <p class="site-header__tagline">Inteligência de dados do agro e do desenvolvimento rural do Paraná</p>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="erro-pagina" aria-labelledby="erro-titulo">
+      <div class="wrap">
+        <p class="erro-pagina__codigo" aria-hidden="true">404</p>
+        <h1 id="erro-titulo" class="erro-pagina__titulo">Página não encontrada</h1>
+        <p class="erro-pagina__texto">
+          O endereço acessado não existe ou foi movido. Você pode voltar ao início
+          para navegar pelos eixos temáticos, pelas camadas contextuais e pelos
+          dados abertos do observatório.
+        </p>
+        <p class="erro-pagina__acoes">
+          <a class="botao" href="/">Voltar ao início</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="site-footer__band" aria-hidden="true"></div>
+    <div class="wrap site-footer__base">
+      <p>© 2026 Observatório Rural Paranaense · Sistema SEAGRI-PR. Conteúdo público em pt-BR.</p>
+    </div>
+  </footer>
+</body>
+</html>

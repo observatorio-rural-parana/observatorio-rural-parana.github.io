@@ -1,0 +1,52 @@
+# Observatório Rural Paranaense
+
+> Hub público de inteligência de dados da agropecuária e do desenvolvimento rural
+> do Paraná. Agrega o ecossistema de painéis dinâmicos do estado sob uma marca
+> institucional (IDR-Paraná / SEAB), tendo dados abertos (download + dicionário de
+> dados) como diferencial. Base: https://observatorio-rural-parana.github.io/
+
+## O que é
+
+O Observatório Rural Paranaense é um portal institucional, em organização dedicada
+no GitHub Pages (`observatorio-rural-parana`), que reúne painéis analíticos e dados
+abertos sobre o agro e o meio rural do Paraná. Sistema-fonte: SEAGRI-PR (SEAB,
+IDR-Paraná, CEASA-PR e ADAPAR). Modelo de referência: Observatório Agro Catarinense
+(Cepa/Epagri). Conteúdo em pt-BR; site estático em HTML/CSS/JS vanilla, acessível
+(WCAG AA). A chave geográfica única é a `regional_idr` (399 municípios → 23 regionais
+→ 7 mesorregiões).
+
+## Eixos temáticos
+
+A taxonomia completa e a relação de painéis ficam em
+https://observatorio-rural-parana.github.io/assets/data/eixos.json
+São 11 eixos, 2 camadas contextuais e 1 núcleo de inteligência territorial.
+
+Cinco eixos-piloto:
+
+- [Desempenho Econômico do Agro](https://observatorio-rural-parana.github.io/): VBP, VAB, PIB do agro, área e produtividade (indicador-âncora da partilha do ICMS).
+- [Mercado e Preços](https://observatorio-rural-parana.github.io/): preços diários (SIMA), atacado/varejo (CEASA-PR), preços florestais, preços de terras e custos.
+- [Comércio Exterior do Agronegócio](https://observatorio-rural-parana.github.io/): exportações/importações FOB, balança e cadeias por NCM (MDIC/ComexStat, filtro PR).
+- [Crédito e Políticas Públicas Rurais](https://observatorio-rural-parana.github.io/): crédito rural (SICOR/Pronaf/PNCF) e programas estaduais.
+- [Assistência Técnica e Extensão Rural (ATER)](https://observatorio-rural-parana.github.io/): cobertura SISATER, Rede Paranaense de ATER e RTV.
+
+Demais eixos: Produção Agropecuária; Desenvolvimento Rural e Socioeconômico;
+Recursos Hídricos, Ambiental e Geoespacial; Sanidade e Defesa Agropecuária; Clima e
+Agrometeorologia; Infraestrutura e Energia Rural. Camadas contextuais: Saúde e
+Segurança (contexto rural). Núcleo: Inteligência Territorial (índice IRTC).
+
+## Dados abertos
+
+- Cada painel oferece dados abertos em CSV/XLSX/JSON acompanhados de dicionário de dados.
+- Atribuição de fontes sempre explícita, para transparência e reprodutibilidade.
+- Taxonomia de eixos e painéis (JSON): https://observatorio-rural-parana.github.io/assets/data/eixos.json
+- De-para geográfico (regionais IDR): https://observatorio-rural-parana.github.io/assets/data/geo/municipios_ref_idr.csv
+- Malha de núcleos regionais (GeoJSON): https://observatorio-rural-parana.github.io/assets/data/geo/pr_nucleos_regionais.json
+
+## Ponteiros
+
+- [Página inicial](https://observatorio-rural-parana.github.io/)
+- [Brief do projeto](https://observatorio-rural-parana.github.io/docs/PROJETO-BRIEF.md): contexto, decisões e convenções de autoria.
+- [Documentação geográfica](https://observatorio-rural-parana.github.io/docs/GEO.md): chave `regional_idr`, níveis e malhas.
+- [Arquitetura](https://observatorio-rural-parana.github.io/docs/ARQUITETURA.md): stack, segurança e integração de painéis.
+- [Sitemap](https://observatorio-rural-parana.github.io/sitemap.xml)
+- [robots.txt](https://observatorio-rural-parana.github.io/robots.txt)

@@ -1,0 +1,14 @@
+# Git LFS — malhas geográficas e tiles pesados (ver docs/GEO.md).
+# Instalar git-lfs e rodar `git lfs install` ANTES de adicionar a malha municipal (~50MB).
+assets/data/geo/mun_*.json   filter=lfs diff=lfs merge=lfs -text
+*.geojson                    filter=lfs diff=lfs merge=lfs -text
+*.topojson                   filter=lfs diff=lfs merge=lfs -text
+*.pmtiles                    filter=lfs diff=lfs merge=lfs -text
+*.fgb                        filter=lfs diff=lfs merge=lfs -text
+
+# Normalização de fim de linha (repo multiplataforma Windows/Linux CI)
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.webp binary
+*.pdf binary

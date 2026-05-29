@@ -1,0 +1,8 @@
+# Observatório Rural Paranaense — robots.txt
+# Hub público de dados abertos da agropecuária e do desenvolvimento rural do PR.
+# Conteúdo institucional aberto: indexação liberada para todos os robôs.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://observatorio-rural-parana.github.io/sitemap.xml
